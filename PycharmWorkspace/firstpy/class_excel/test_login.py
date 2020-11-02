@@ -1,0 +1,62 @@
+"""
+======================
+Author: 柠檬班-小简
+Time: 2020/6/10 21:38
+Project: py30
+Company: 湖南零檬信息技术有限公司
+======================
+"""
+
+
+
+import unittest
+from class_unittest.login import login_check
+# import ddt
+
+from ddt import ddt,data
+
+# datas = [
+#     {"user":"python27","passwd":"lemonban","check":{"code": 0, "msg": "登录成功"}},
+#     {"user":"python27","passwd":"lemonban11","check":{"code": 1, "msg": "账号或密码不正确"}},
+#     {"user":"python25","passwd":"lemonban","check":{"code": 1, "msg": "账号或密码不正确"}}
+# ]
+
+import os
+file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),"login_cases.xlsx")
+
+# 1、加载excel数据文件
+from openpyxl import load_workbook
+wb = load_workbook(file_path)
+
+# 2、根据表单名称选择表单：wb['表单名称']
+sh = wb["login"]
+all_datas = []  # 获取excel表格当中所有的测试数据
+# 1、拿到字典的key值：
+# print(list(sh.rows)[0])  # (<Cell 'login'.A1>, <Cell 'login'.B1>, <Cell 'login'.C1>)
+titles = []
+for item in list(sh.rows)[0]: # 遍历第1行当中每一列
+    titles.append(item.value)
+print(titles)
+
+for item in list(sh.rows)[1:]: # 遍历数据行
+    values = []
+    for val in item:  # 获取每一行的值
+        values.append(val.value)
+    res = dict(zip(titles,values))  # title和每一行数据，打包成字典
+    res["check"] = eval(res["check"])  # 将check的字符串，转换为字典对象。
+    all_datas.append(res) # 追加到列表
+
+# print(all_datas)
+
+@ddt
+class TestLogin(unittest.TestCase):
+
+    @data(*all_datas)
+    def test_login(self,case):
+        # 1、测试数据 # 2、测试步骤
+        res = login_check(case["user"],case["passwd"])
+        # 3、断言：预期结果与实际结果的比对
+        self.assertEqual(res,case["check"])
+
+
+

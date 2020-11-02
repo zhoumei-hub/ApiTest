@@ -1,0 +1,28 @@
+2020-08-28 20:34:51,587 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 20:49:47,564 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 20:50:22,691 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:18:21,553 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:18:30,925 py30 INFO basepage.py-42 line：在 百度首页_等待搜索输入框可见 行为，等待元素：('id', 'kw') 可见。
+2020-08-28 21:19:06,118 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:19:15,426 py30 INFO basepage.py-42 line：在 百度首页_等待搜索输入框可见 行为，等待元素：('id', 'kw') 可见。
+2020-08-28 21:19:15,592 py30 INFO basepage.py-53 line：等待耗时为：0.16579341888427734
+2020-08-28 21:20:36,744 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:20:46,597 py30 INFO basepage.py-42 line：在 百度首页_等待搜索输入框可见 行为，等待元素：('id', 'kw111') 可见。
+2020-08-28 21:21:06,634 py30 ERROR basepage.py-48 line：等待元素可见失败！
+Traceback (most recent call last):
+  File "D:/Pychram-Workspace/py30-web-framework/day3/Common/basepage.py", line 45, in wait_ele_visible
+    WebDriverWait(self.driver, timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-08-28 21:21:07,101 py30 INFO basepage.py-75 line：截图保存在：D:\Pychram-Workspace\py30-web-framework\day3\Outputs\screenshots\百度首页_等待搜索输入框可见_2020-08-28-21-21-06.png
+2020-08-28 21:46:41,669 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:46:52,422 py30 INFO basepage.py-42 line：在 百度首页_输入搜索内容 行为，等待元素：('id', 'kw') 可见。
+2020-08-28 21:46:52,612 py30 INFO basepage.py-54 line：等待耗时为：0.18857383728027344
+2020-08-28 21:46:52,613 py30 INFO basepage.py-87 line：在 百度首页_输入搜索内容 行为，查找元素：('id', 'kw')
+2020-08-28 21:46:52,714 py30 INFO basepage.py-114 line：在 百度首页_输入搜索内容 行为，给元素：('id', 'kw') 输入文本值：selenium webdriver
+2020-08-28 21:46:53,832 py30 INFO basepage.py-42 line：在 百度首页_点击搜索按钮 行为，等待元素：('id', 'su') 可见。
+2020-08-28 21:46:53,913 py30 INFO basepage.py-54 line：等待耗时为：0.07995247840881348
+2020-08-28 21:46:53,913 py30 INFO basepage.py-87 line：在 百度首页_点击搜索按钮 行为，查找元素：('id', 'su')
+2020-08-28 21:46:53,967 py30 INFO basepage.py-103 line：在 百度首页_点击搜索按钮 行为，点击元素：('id', 'su')

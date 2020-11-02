@@ -1,0 +1,145 @@
+{
+  "e60344e31024accddf6073cc86c6051a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "972c5a964b177bec",
+      "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure/#testresult/972c5a964b177bec",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入正确的手机号' == '请输入手机号'\n  - 请输入手机号\n  + 请输入正确的手机号\n  ?    +++",
+      "time" : {
+        "start" : 1599055538271,
+        "stop" : 1599055540844,
+        "duration" : 2573
+      }
+    } ]
+  },
+  "408dc31a0bf787af47f315227b3b8911" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4f8cd7e8d69ff0e",
+      "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure/#testresult/a4f8cd7e8d69ff0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599055508953,
+        "stop" : 1599055515142,
+        "duration" : 6189
+      }
+    } ]
+  },
+  "1352fcf7b98c3a086b04449cfbf3bcb3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29c66ffa158b9cd2",
+      "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure/#testresult/29c66ffa158b9cd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599055535563,
+        "stop" : 1599055537132,
+        "duration" : 1569
+      }
+    } ]
+  },
+  "f0bfd36e151bd6809e3bea92a4f95e89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d61073ebd47cb94f",
+      "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure/#testresult/d61073ebd47cb94f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599055533157,
+        "stop" : 1599055534769,
+        "duration" : 1612
+      }
+    } ]
+  },
+  "586d0bdeba7311a18258d323abcb9f72" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a1a30cbc277d196",
+      "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure/#testresult/3a1a30cbc277d196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599055545127,
+        "stop" : 1599055551209,
+        "duration" : 6082
+      }
+    } ]
+  },
+  "389dd2f3fee364e52db84f2d8646a6f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90c7893dcca48435",
+      "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure/#testresult/90c7893dcca48435",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1999.9999999999854 == 2000\n  +1999.9999999999854\n  -2000",
+      "time" : {
+        "start" : 1599055473808,
+        "stop" : 1599055507408,
+        "duration" : 33600
+      }
+    } ]
+  },
+  "7b7b379e8ec7b1b6556bcf518822b40d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "129db184fca1c9bf",
+      "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure/#testresult/129db184fca1c9bf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入正确的手机号' == '请输入手机号'\n  - 请输入手机号\n  + 请输入正确的手机号\n  ?    +++",
+      "time" : {
+        "start" : 1599055541744,
+        "stop" : 1599055544034,
+        "duration" : 2290
+      }
+    } ]
+  }
+}

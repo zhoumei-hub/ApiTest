@@ -1,0 +1,155 @@
+{
+  "uid" : "90c7893dcca48435",
+  "name" : "test_invest_success",
+  "fullName" : "TestCases.test_invest.TestInvest#test_invest_success",
+  "historyId" : "389dd2f3fee364e52db84f2d8646a6f7",
+  "time" : {
+    "start" : 1599055473808,
+    "stop" : 1599055507408,
+    "duration" : 33600
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1999.9999999999854 == 2000\n  +1999.9999999999854\n  -2000",
+  "statusTrace" : "self = <TestCases.test_invest.TestInvest object at 0x0000020B9FAE4828>\nback_home = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"73f0ee9071a1ae95cc9a787a3983e2f4\")>\n\n    @pytest.mark.smoke\n    def test_invest_success(self,back_home):\n        logger.info(\" **** 正向用例:登陆成功   检验:用户余额是否变化,标的可余额是否变化 ***** \")\n        # 前置 - 步骤  - 断言\n        # 1、首页 - 选择第1个标，点击抢投标按钮\n        HomePage(back_home).click_first_invest_button()\n        # 2、标页面 - 获取用户的  投资前的余额\n        bp = BidPage(back_home)\n        user_money_before_invest = bp.get_user_left_money()\n        # 2、标页面 - 获取标的 投资前的标余额\n        bid_money_before_invest = bp.get_bid_left_money()\n        # 2、标页面 - 输入投资金额2000，点击投资按钮。\n        bp.invest(2000)\n        # 3、标页面 - 点击查看并激活\n        bp.click_activation_button_on_success_popup()\n    \n        # 1、用户的钱少了没有\n        # 投资之前 - 投资之后 = 2000\n        # 用户页面 - 得到用户当前余额\n        user_money_after_invest = UserPage(back_home).get_user_left_money()\n        # 2、标的可投余额少了没有\n        # 标前 - 标后 = 2000\n        # 用户页面 - 回退一次\n        UserPage(back_home).back_last_page().refresh_page()\n        # 刷新页面，\n        # 标页面 - 获取投资后的标余额\n        bid_money_after_invest = bp.get_bid_left_money()\n        # 1、用户的钱少了没有\n        assert float(user_money_before_invest) - float(user_money_after_invest) == 2000\n>       assert float(bid_money_before_invest)*10000 - float(bid_money_after_invest) * 10000 == 2000\nE       assert 1999.9999999999854 == 2000\nE         +1999.9999999999854\nE         -2000\n\nTestCases\\test_invest.py:50: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "access",
+    "time" : {
+      "start" : 1599055467616,
+      "stop" : 1599055469786,
+      "duration" : 2170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "back_home",
+    "time" : {
+      "start" : 1599055469786,
+      "stop" : 1599055473805,
+      "duration" : 4019
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "init",
+    "time" : {
+      "start" : 1599055453259,
+      "stop" : 1599055467614,
+      "duration" : 14355
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "access::0",
+    "time" : {
+      "start" : 1599055515146,
+      "stop" : 1599055515146,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "back_home::0",
+    "time" : {
+      "start" : 1599055507511,
+      "stop" : 1599055507511,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "init::0",
+    "time" : {
+      "start" : 1599055515150,
+      "stop" : 1599055517775,
+      "duration" : 2625
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_invest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInvest"
+  }, {
+    "name" : "host",
+    "value" : "CY-20190809JTFQ"
+  }, {
+    "name" : "thread",
+    "value" : "5776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_invest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "90c7893dcca48435.json",
+  "parameterValues" : [ ]
+}

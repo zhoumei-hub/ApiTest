@@ -1,0 +1,116 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_invest",
+      "children" : [ {
+        "name" : "TestInvest",
+        "children" : [ {
+          "name" : "test_invest_success",
+          "uid" : "90c7893dcca48435",
+          "parentUid" : "9094ef820eabcf71541c6040d208722a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599055473808,
+            "stop" : 1599055507408,
+            "duration" : 33600
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_invest_failed_no100",
+          "uid" : "a4f8cd7e8d69ff0e",
+          "parentUid" : "9094ef820eabcf71541c6040d208722a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599055508953,
+            "stop" : 1599055515142,
+            "duration" : 6189
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9094ef820eabcf71541c6040d208722a"
+      } ],
+      "uid" : "da2044d81f7a572de76fcc576a887c5e"
+    }, {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login_failed_invalid_data[case0]",
+          "uid" : "d61073ebd47cb94f",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599055533157,
+            "stop" : 1599055534769,
+            "duration" : 1612
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'user': '', 'passwd': 'python', 'check': '请输入手机号'}" ]
+        }, {
+          "name" : "test_login_failed_invalid_data[case1]",
+          "uid" : "29c66ffa158b9cd2",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599055535563,
+            "stop" : 1599055537132,
+            "duration" : 1569
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'user': '18684720553', 'passwd': '', 'check': '请输入密码'}" ]
+        }, {
+          "name" : "test_login_failed_invalid_data[case2]",
+          "uid" : "972c5a964b177bec",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599055538271,
+            "stop" : 1599055540844,
+            "duration" : 2573
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'user': '1868472055', 'passwd': 'python', 'check': '请输入手机号'}" ]
+        }, {
+          "name" : "test_login_failed_invalid_data[case3]",
+          "uid" : "129db184fca1c9bf",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "failed",
+          "time" : {
+            "start" : 1599055541744,
+            "stop" : 1599055544034,
+            "duration" : 2290
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'user': '186847205531', 'passwd': 'python', 'check': '请输入手机号'}" ]
+        }, {
+          "name" : "test_login_success",
+          "uid" : "3a1a30cbc277d196",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1599055545127,
+            "stop" : 1599055551209,
+            "duration" : 6082
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "156334d8d56ad3e60f17bab8a0cb7a59"
+      } ],
+      "uid" : "ee33cb4c057a9d7ca1eec0eaa23a4bee"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
+  } ]
+}

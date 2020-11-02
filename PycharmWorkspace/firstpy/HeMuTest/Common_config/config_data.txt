@@ -1,0 +1,19 @@
+*** Variables ***
+#变量名称不能修改（python读取）
+${test_module_ip}    172.19.0.136    # qos-ip
+${test_module_port}    20885    # qos port
+${enter_flag}     {"class":"com.cmiot.dhap.core.impl.PoolableBaseContext"}
+# 变量名称不能修改（python读取）
+${redis_host}     10.11.4.77
+${redis_port}     6389
+${redis_password}    redispas4w0rd
+# 变量名称不能修改（python读取）
+${kafka_host}     172.19.0.131
+${kafka_port}     9092
+# 变量名称不能修改（python读取）
+${database_ip}    172.19.0.146
+${database_port}    3306
+${database_user}    root
+${database_db}    platform    # 用来查询业务数据的数据库，sql操作默认查询的库。
+${database_password}    Iot@10086
+${run_case_db}    case-record    # 用来存放用测试用例例执行数据t_execution_table，t_mock_template_table数据，sql语句中必须带有库名。例如select * from platform.t_execution_table,不写库名默认使用database_db

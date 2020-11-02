@@ -1,0 +1,27 @@
+*** Settings ***
+Resource          ../Common_config/config_data.txt
+Resource          ../Common_lib/db_operation_lib.txt
+Resource          ../Common_lib/redis_operation_lib.txt
+Resource          ../Common_lib/robot_operation_lib.txt
+Library           ../Common_lib/python_lib/python_operation_lib.py
+
+*** Variables ***
+
+*** Keywords ***
+HemuExecTestCases
+    [Arguments]    ${case_id}    ${interface_url}    ${case_method}    ${case_payloadment}    ${expect_result}    @{case_mock}
+    log    ------******测试开始******------
+    log    步骤1:生成真实的dubbo请求...
+    ${case_dubbo_req}    hemu_dubbo_request    ${case_method}    ${interface_url}    ${enter_flag}    ${case_payloadment}
+    log    步骤2:生成测试用例请求报文...
+    @{case_packet}    hemu_generate_request    ${case_id}    ${case_dubbo_req}    @{case_mock}
+    log    步骤3:将测试用例请求报文发送出去（robot-python-testmodle）...
+    ${actual_result}    hemu_send_to_module    @{case_packet}
+    log    步骤4:等待响应结果（testmodle-python-robot）...
+    log    实际测试结果为:
+    log    ${actual_result}
+    log    预期结果为:
+    log    ${expect_result}
+    log    ------******测试结束******------
+    log    步骤5:开始比较实际测试结果和预期结果...
+    hemu_result_check    ${actual_result}    ${expect_result}

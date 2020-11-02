@@ -1,0 +1,20 @@
+*** Settings ***
+Library           python_lib/python_operation_lib.py
+
+*** Keywords ***
+hemu_get_redis_value
+    [Arguments]    ${key}
+    log    ${key}
+    ${value}    python_get_redis_value    ${key}
+    log    ${value}
+    [Return]    ${value}
+
+hemu_set_redis_value
+    [Arguments]    &{operation_code}
+    ${set_result}    python_set_redis_value    &{operation_code}[key]    &{operation_code}[value]
+    log    ${set_result}
+    [Return]    ${set_result}
+
+hemu_del_redis_value
+    [Arguments]    ${key}
+    ${del_result}    python_delete_redis_value    ${key}

@@ -1,0 +1,458 @@
+2020-09-02 21:28:16,025 py30 INFO my_logger.py-48 line：1111111111111111
+2020-09-02 21:28:16,229 py30 INFO conftest.py-20 line：========== class级 前置操作:打开谷歌浏览器,访问系统登陆页面 ===============
+2020-09-02 21:28:30,835 py30 INFO conftest.py-36 line：========== class级 前置操作:登陆系统 ===============
+2020-09-02 21:28:30,836 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 21:28:30,912 py30 INFO basepage.py-78 line：等待耗时为：0.07532286643981934
+2020-09-02 21:28:30,913 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 21:28:30,937 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 21:28:32,362 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 21:28:32,434 py30 INFO basepage.py-78 line：等待耗时为：0.07195758819580078
+2020-09-02 21:28:32,434 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 21:28:32,503 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 21:28:33,217 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 21:28:33,271 py30 INFO basepage.py-78 line：等待耗时为：0.051969051361083984
+2020-09-02 21:28:33,271 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 21:28:33,328 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 21:28:37,448 py30 INFO test_invest.py-22 line： **** 正向用例:登陆成功   检验:用户余额是否变化,标的可余额是否变化 ***** 
+2020-09-02 21:28:37,449 py30 INFO basepage.py-66 line：在 首页_点击抢投标按钮 行为，等待元素：('xpath', '//a[@class="btn btn-special"]') 存在。
+2020-09-02 21:28:37,529 py30 INFO basepage.py-78 line：等待耗时为：0.07895398139953613
+2020-09-02 21:28:37,530 py30 INFO basepage.py-97 line：在 首页_点击抢投标按钮 行为，查找元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 21:28:37,591 py30 INFO basepage.py-113 line：在 首页_点击抢投标按钮 行为，点击元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 21:28:42,219 py30 INFO basepage.py-66 line：在 标页面_获取用户余额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 21:28:42,276 py30 INFO basepage.py-78 line：等待耗时为：0.05696439743041992
+2020-09-02 21:28:42,277 py30 INFO basepage.py-97 line：在 标页面_获取用户余额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 21:28:42,332 py30 INFO basepage.py-157 line：在 标页面_获取用户余额 行为，获取元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 的 data-amount 属性值。
+2020-09-02 21:28:42,367 py30 INFO basepage.py-165 line：属性值为：6122506063.42
+2020-09-02 21:28:42,367 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 21:28:42,413 py30 INFO basepage.py-78 line：等待耗时为：0.04597353935241699
+2020-09-02 21:28:42,413 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 21:28:42,437 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 21:28:42,491 py30 INFO basepage.py-151 line：文本值为：2.09
+2020-09-02 21:28:42,491 py30 INFO basepage.py-66 line：在 标页面_输入投资金额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 21:28:42,539 py30 INFO basepage.py-78 line：等待耗时为：0.04797172546386719
+2020-09-02 21:28:42,539 py30 INFO basepage.py-97 line：在 标页面_输入投资金额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 21:28:42,574 py30 INFO basepage.py-124 line：在 标页面_输入投资金额 行为，给元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本值：2000
+2020-09-02 21:28:42,921 py30 INFO basepage.py-66 line：在 标页面_点投资按钮 行为，等待元素：('xpath', '//button[text()="投标"]') 存在。
+2020-09-02 21:28:42,964 py30 INFO basepage.py-78 line：等待耗时为：0.04197216033935547
+2020-09-02 21:28:42,964 py30 INFO basepage.py-97 line：在 标页面_点投资按钮 行为，查找元素：('xpath', '//button[text()="投标"]')
+2020-09-02 21:28:42,995 py30 INFO basepage.py-113 line：在 标页面_点投资按钮 行为，点击元素：('xpath', '//button[text()="投标"]')
+2020-09-02 21:28:43,190 py30 INFO basepage.py-66 line：在 标页面_点击激活并查看按钮 行为，等待元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 存在。
+2020-09-02 21:28:43,858 py30 INFO basepage.py-78 line：等待耗时为：0.6666164398193359
+2020-09-02 21:28:43,859 py30 INFO basepage.py-97 line：在 标页面_点击激活并查看按钮 行为，查找元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 21:28:43,893 py30 INFO basepage.py-113 line：在 标页面_点击激活并查看按钮 行为，点击元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 21:29:02,771 py30 INFO basepage.py-66 line：在 用户页面_获取用户可用余额 行为，等待元素：('xpath', '//li[@class="color_sub"]') 存在。
+2020-09-02 21:29:02,805 py30 INFO basepage.py-78 line：等待耗时为：0.03298020362854004
+2020-09-02 21:29:02,806 py30 INFO basepage.py-97 line：在 用户页面_获取用户可用余额 行为，查找元素：('xpath', '//li[@class="color_sub"]')
+2020-09-02 21:29:02,833 py30 INFO basepage.py-143 line：在 用户页面_获取用户可用余额 行为，获取元素 ('xpath', '//li[@class="color_sub"]') 的文本值。
+2020-09-02 21:29:02,861 py30 INFO basepage.py-151 line：文本值为：6122504063.42元
+2020-09-02 21:29:02,862 py30 INFO basepage.py-180 line：回退到上一页
+2020-09-02 21:29:03,656 py30 INFO basepage.py-185 line：刷新当前页面
+2020-09-02 21:29:08,079 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 21:29:08,153 py30 INFO basepage.py-78 line：等待耗时为：0.07221436500549316
+2020-09-02 21:29:08,154 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 21:29:08,187 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 21:29:08,236 py30 INFO basepage.py-151 line：文本值为：1.89
+2020-09-02 21:29:09,681 py30 INFO test_invest.py-53 line： **** 异常用例:投资失败   检验:???? ***** 
+2020-09-02 21:29:09,682 py30 INFO basepage.py-66 line：在 首页_点击抢投标按钮 行为，等待元素：('xpath', '//a[@class="btn btn-special"]') 存在。
+2020-09-02 21:29:09,776 py30 INFO basepage.py-78 line：等待耗时为：0.0939474105834961
+2020-09-02 21:29:09,776 py30 INFO basepage.py-97 line：在 首页_点击抢投标按钮 行为，查找元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 21:29:09,840 py30 INFO basepage.py-113 line：在 首页_点击抢投标按钮 行为，点击元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 21:29:14,203 py30 INFO basepage.py-66 line：在 标页面_输入投资金额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 21:29:14,238 py30 INFO basepage.py-78 line：等待耗时为：0.03398299217224121
+2020-09-02 21:29:14,238 py30 INFO basepage.py-97 line：在 标页面_输入投资金额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 21:29:14,294 py30 INFO basepage.py-124 line：在 标页面_输入投资金额 行为，给元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本值：50
+2020-09-02 21:29:14,788 py30 INFO basepage.py-66 line：在 标页面_点投资按钮 行为，等待元素：('xpath', '//button[text()="投标"]') 存在。
+2020-09-02 21:29:14,855 py30 INFO basepage.py-78 line：等待耗时为：0.06679129600524902
+2020-09-02 21:29:14,856 py30 INFO basepage.py-97 line：在 标页面_点投资按钮 行为，查找元素：('xpath', '//button[text()="投标"]')
+2020-09-02 21:29:14,907 py30 INFO basepage.py-113 line：在 标页面_点投资按钮 行为，点击元素：('xpath', '//button[text()="投标"]')
+2020-09-02 21:29:15,109 py30 INFO basepage.py-66 line：在 标页面_获取投资失败弹出框的文本 行为，等待元素：('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 存在。
+2020-09-02 21:29:15,768 py30 INFO basepage.py-78 line：等待耗时为：0.6577208042144775
+2020-09-02 21:29:15,768 py30 INFO basepage.py-97 line：在 标页面_获取投资失败弹出框的文本 行为，查找元素：('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]')
+2020-09-02 21:29:15,815 py30 INFO basepage.py-143 line：在 标页面_获取投资失败弹出框的文本 行为，获取元素 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 的文本值。
+2020-09-02 21:29:15,862 py30 INFO basepage.py-151 line：文本值为：投标金额必须为100的倍数
+2020-09-02 21:29:15,870 py30 INFO conftest.py-25 line：========== class级 后置操作:关闭谷歌浏览器,退出会话 ===============
+2020-09-02 21:35:19,845 py30 INFO my_logger.py-48 line：1111111111111111
+2020-09-02 21:35:20,103 py30 INFO conftest.py-20 line：========== class级 前置操作:打开谷歌浏览器,访问系统登陆页面 ===============
+2020-09-02 21:35:33,724 py30 INFO conftest.py-36 line：========== class级 前置操作:登陆系统 ===============
+2020-09-02 21:35:33,725 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 21:35:33,777 py30 INFO basepage.py-78 line：等待耗时为：0.050518035888671875
+2020-09-02 21:35:33,778 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 21:35:33,847 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 21:35:34,374 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 21:35:34,408 py30 INFO basepage.py-78 line：等待耗时为：0.03398704528808594
+2020-09-02 21:35:34,410 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 21:35:34,456 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 21:35:34,708 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 21:35:34,740 py30 INFO basepage.py-78 line：等待耗时为：0.030981063842773438
+2020-09-02 21:35:34,740 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 21:35:34,772 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 21:35:38,004 py30 INFO test_invest.py-23 line： **** 正向用例:登陆成功   检验:用户余额是否变化,标的可余额是否变化 ***** 
+2020-09-02 21:35:38,005 py30 INFO basepage.py-66 line：在 首页_点击抢投标按钮 行为，等待元素：('xpath', '//a[@class="btn btn-special"]') 存在。
+2020-09-02 21:35:38,114 py30 INFO basepage.py-78 line：等待耗时为：0.10993361473083496
+2020-09-02 21:35:38,114 py30 INFO basepage.py-97 line：在 首页_点击抢投标按钮 行为，查找元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 21:35:38,163 py30 INFO basepage.py-113 line：在 首页_点击抢投标按钮 行为，点击元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 21:35:43,286 py30 INFO basepage.py-66 line：在 标页面_获取用户余额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 21:35:43,359 py30 INFO basepage.py-78 line：等待耗时为：0.07312726974487305
+2020-09-02 21:35:43,359 py30 INFO basepage.py-97 line：在 标页面_获取用户余额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 21:35:43,420 py30 INFO basepage.py-157 line：在 标页面_获取用户余额 行为，获取元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 的 data-amount 属性值。
+2020-09-02 21:35:43,452 py30 INFO basepage.py-165 line：属性值为：6122504063.42
+2020-09-02 21:35:43,453 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 21:35:43,538 py30 INFO basepage.py-78 line：等待耗时为：0.08478450775146484
+2020-09-02 21:35:43,539 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 21:35:43,564 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 21:35:43,657 py30 INFO basepage.py-151 line：文本值为：1.89
+2020-09-02 21:35:43,657 py30 INFO basepage.py-66 line：在 标页面_输入投资金额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 21:35:43,730 py30 INFO basepage.py-78 line：等待耗时为：0.07366561889648438
+2020-09-02 21:35:43,732 py30 INFO basepage.py-97 line：在 标页面_输入投资金额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 21:35:43,777 py30 INFO basepage.py-124 line：在 标页面_输入投资金额 行为，给元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本值：2000
+2020-09-02 21:35:44,387 py30 INFO basepage.py-66 line：在 标页面_点投资按钮 行为，等待元素：('xpath', '//button[text()="投标"]') 存在。
+2020-09-02 21:35:44,479 py30 INFO basepage.py-78 line：等待耗时为：0.0905919075012207
+2020-09-02 21:35:44,480 py30 INFO basepage.py-97 line：在 标页面_点投资按钮 行为，查找元素：('xpath', '//button[text()="投标"]')
+2020-09-02 21:35:44,523 py30 INFO basepage.py-113 line：在 标页面_点投资按钮 行为，点击元素：('xpath', '//button[text()="投标"]')
+2020-09-02 21:35:44,969 py30 INFO basepage.py-66 line：在 标页面_点击激活并查看按钮 行为，等待元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 存在。
+2020-09-02 21:35:45,660 py30 INFO basepage.py-78 line：等待耗时为：0.6907439231872559
+2020-09-02 21:35:45,660 py30 INFO basepage.py-97 line：在 标页面_点击激活并查看按钮 行为，查找元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 21:35:45,721 py30 INFO basepage.py-113 line：在 标页面_点击激活并查看按钮 行为，点击元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 21:36:04,059 py30 INFO basepage.py-66 line：在 用户页面_获取用户可用余额 行为，等待元素：('xpath', '//li[@class="color_sub"]') 存在。
+2020-09-02 21:36:04,086 py30 INFO basepage.py-78 line：等待耗时为：0.025983810424804688
+2020-09-02 21:36:04,087 py30 INFO basepage.py-97 line：在 用户页面_获取用户可用余额 行为，查找元素：('xpath', '//li[@class="color_sub"]')
+2020-09-02 21:36:04,130 py30 INFO basepage.py-143 line：在 用户页面_获取用户可用余额 行为，获取元素 ('xpath', '//li[@class="color_sub"]') 的文本值。
+2020-09-02 21:36:04,156 py30 INFO basepage.py-151 line：文本值为：6122502063.42元
+2020-09-02 21:36:04,156 py30 INFO basepage.py-180 line：回退到上一页
+2020-09-02 21:36:05,020 py30 INFO basepage.py-185 line：刷新当前页面
+2020-09-02 21:36:09,371 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 21:36:09,465 py30 INFO basepage.py-78 line：等待耗时为：0.09152626991271973
+2020-09-02 21:36:09,465 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 21:36:09,505 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 21:36:09,543 py30 INFO basepage.py-151 line：文本值为：1.69
+2020-09-02 21:36:09,554 py30 INFO conftest.py-25 line：========== class级 后置操作:关闭谷歌浏览器,退出会话 ===============
+2020-09-02 21:36:12,238 py30 INFO conftest.py-20 line：========== class级 前置操作:打开谷歌浏览器,访问系统登陆页面 ===============
+2020-09-02 21:36:25,557 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 21:36:25,578 py30 INFO basepage.py-78 line：等待耗时为：0.020990848541259766
+2020-09-02 21:36:25,579 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 21:36:25,606 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 21:36:26,075 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 21:36:26,100 py30 INFO basepage.py-78 line：等待耗时为：0.024986743927001953
+2020-09-02 21:36:26,101 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 21:36:26,128 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 21:36:26,380 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 21:36:26,414 py30 INFO basepage.py-78 line：等待耗时为：0.031954288482666016
+2020-09-02 21:36:26,415 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 21:36:26,442 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 21:36:26,594 py30 INFO basepage.py-44 line：在 首页_等待退出元素可见 行为，等待元素：('xpath', '//a[text()="退出"]') 可见。
+2020-09-02 21:36:29,683 py30 INFO basepage.py-56 line：等待耗时为：3.0873613357543945
+2020-09-02 21:36:29,701 py30 INFO conftest.py-25 line：========== class级 后置操作:关闭谷歌浏览器,退出会话 ===============
+2020-09-02 21:59:37,402 py30 INFO my_logger.py-48 line：1111111111111111
+2020-09-02 21:59:37,601 py30 INFO conftest.py-20 line：========== class级 前置操作:打开谷歌浏览器,访问系统登陆页面 ===============
+2020-09-02 21:59:54,239 py30 INFO conftest.py-36 line：========== class级 前置操作:登陆系统 ===============
+2020-09-02 21:59:54,240 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 21:59:54,315 py30 INFO basepage.py-78 line：等待耗时为：0.07395362854003906
+2020-09-02 21:59:54,316 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 21:59:54,361 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 21:59:55,489 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 21:59:55,548 py30 INFO basepage.py-78 line：等待耗时为：0.057959794998168945
+2020-09-02 21:59:55,549 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 21:59:55,609 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 21:59:56,703 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 21:59:56,806 py30 INFO basepage.py-78 line：等待耗时为：0.10194182395935059
+2020-09-02 21:59:56,806 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 21:59:57,057 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:00:01,798 py30 INFO test_invest.py-23 line： **** 正向用例:登陆成功   检验:用户余额是否变化,标的可余额是否变化 ***** 
+2020-09-02 22:00:01,798 py30 INFO basepage.py-66 line：在 首页_点击抢投标按钮 行为，等待元素：('xpath', '//a[@class="btn btn-special"]') 存在。
+2020-09-02 22:00:02,304 py30 INFO basepage.py-78 line：等待耗时为：0.5052354335784912
+2020-09-02 22:00:02,305 py30 INFO basepage.py-97 line：在 首页_点击抢投标按钮 行为，查找元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:00:02,619 py30 INFO basepage.py-113 line：在 首页_点击抢投标按钮 行为，点击元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:00:08,470 py30 INFO basepage.py-66 line：在 标页面_获取用户余额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 22:00:08,561 py30 INFO basepage.py-78 line：等待耗时为：0.09023356437683105
+2020-09-02 22:00:08,561 py30 INFO basepage.py-97 line：在 标页面_获取用户余额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 22:00:08,629 py30 INFO basepage.py-157 line：在 标页面_获取用户余额 行为，获取元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 的 data-amount 属性值。
+2020-09-02 22:00:08,653 py30 INFO basepage.py-165 line：属性值为：6122502063.42
+2020-09-02 22:00:08,654 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 22:00:08,739 py30 INFO basepage.py-78 line：等待耗时为：0.08495569229125977
+2020-09-02 22:00:08,740 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 22:00:08,830 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 22:00:08,939 py30 INFO basepage.py-151 line：文本值为：10
+2020-09-02 22:00:08,939 py30 INFO basepage.py-66 line：在 标页面_输入投资金额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 22:00:08,996 py30 INFO basepage.py-78 line：等待耗时为：0.05657792091369629
+2020-09-02 22:00:08,998 py30 INFO basepage.py-97 line：在 标页面_输入投资金额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 22:00:09,057 py30 INFO basepage.py-124 line：在 标页面_输入投资金额 行为，给元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本值：2000
+2020-09-02 22:00:09,596 py30 INFO basepage.py-66 line：在 标页面_点投资按钮 行为，等待元素：('xpath', '//button[text()="投标"]') 存在。
+2020-09-02 22:00:09,639 py30 INFO basepage.py-78 line：等待耗时为：0.041974782943725586
+2020-09-02 22:00:09,639 py30 INFO basepage.py-97 line：在 标页面_点投资按钮 行为，查找元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:00:09,678 py30 INFO basepage.py-113 line：在 标页面_点投资按钮 行为，点击元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:00:09,938 py30 INFO basepage.py-66 line：在 标页面_点击激活并查看按钮 行为，等待元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 存在。
+2020-09-02 22:00:10,621 py30 INFO basepage.py-78 line：等待耗时为：0.6821229457855225
+2020-09-02 22:00:10,622 py30 INFO basepage.py-97 line：在 标页面_点击激活并查看按钮 行为，查找元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 22:00:10,699 py30 INFO basepage.py-113 line：在 标页面_点击激活并查看按钮 行为，点击元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 22:00:32,563 py30 INFO basepage.py-66 line：在 用户页面_获取用户可用余额 行为，等待元素：('xpath', '//li[@class="color_sub"]') 存在。
+2020-09-02 22:00:32,592 py30 INFO basepage.py-78 line：等待耗时为：0.028978586196899414
+2020-09-02 22:00:32,593 py30 INFO basepage.py-97 line：在 用户页面_获取用户可用余额 行为，查找元素：('xpath', '//li[@class="color_sub"]')
+2020-09-02 22:00:32,620 py30 INFO basepage.py-143 line：在 用户页面_获取用户可用余额 行为，获取元素 ('xpath', '//li[@class="color_sub"]') 的文本值。
+2020-09-02 22:00:32,652 py30 INFO basepage.py-151 line：文本值为：6122499963.42元
+2020-09-02 22:00:32,652 py30 INFO basepage.py-180 line：回退到上一页
+2020-09-02 22:00:33,584 py30 INFO basepage.py-185 line：刷新当前页面
+2020-09-02 22:00:37,994 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 22:00:38,088 py30 INFO basepage.py-78 line：等待耗时为：0.0930337905883789
+2020-09-02 22:00:38,089 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 22:00:38,119 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 22:00:38,189 py30 INFO basepage.py-151 line：文本值为：9.79
+2020-09-02 22:00:40,159 py30 INFO test_invest.py-54 line： **** 异常用例:投资失败   检验:???? ***** 
+2020-09-02 22:00:40,160 py30 INFO basepage.py-66 line：在 首页_点击抢投标按钮 行为，等待元素：('xpath', '//a[@class="btn btn-special"]') 存在。
+2020-09-02 22:00:40,257 py30 INFO basepage.py-78 line：等待耗时为：0.0969688892364502
+2020-09-02 22:00:40,257 py30 INFO basepage.py-97 line：在 首页_点击抢投标按钮 行为，查找元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:00:40,296 py30 INFO basepage.py-113 line：在 首页_点击抢投标按钮 行为，点击元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:00:45,169 py30 INFO basepage.py-66 line：在 标页面_输入投资金额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 22:00:45,271 py30 INFO basepage.py-78 line：等待耗时为：0.10221433639526367
+2020-09-02 22:00:45,271 py30 INFO basepage.py-97 line：在 标页面_输入投资金额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 22:00:45,318 py30 INFO basepage.py-124 line：在 标页面_输入投资金额 行为，给元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本值：50
+2020-09-02 22:00:45,666 py30 INFO basepage.py-66 line：在 标页面_点投资按钮 行为，等待元素：('xpath', '//button[text()="投标"]') 存在。
+2020-09-02 22:00:45,751 py30 INFO basepage.py-78 line：等待耗时为：0.08394742012023926
+2020-09-02 22:00:45,751 py30 INFO basepage.py-97 line：在 标页面_点投资按钮 行为，查找元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:00:45,781 py30 INFO basepage.py-113 line：在 标页面_点投资按钮 行为，点击元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:00:45,949 py30 INFO basepage.py-66 line：在 标页面_获取投资失败弹出框的文本 行为，等待元素：('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 存在。
+2020-09-02 22:00:46,608 py30 INFO basepage.py-78 line：等待耗时为：0.657268762588501
+2020-09-02 22:00:46,609 py30 INFO basepage.py-97 line：在 标页面_获取投资失败弹出框的文本 行为，查找元素：('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]')
+2020-09-02 22:00:46,644 py30 INFO basepage.py-143 line：在 标页面_获取投资失败弹出框的文本 行为，获取元素 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 的文本值。
+2020-09-02 22:00:46,695 py30 INFO basepage.py-151 line：文本值为：投标金额必须为100的倍数
+2020-09-02 22:00:46,718 py30 INFO conftest.py-25 line：========== class级 后置操作:关闭谷歌浏览器,退出会话 ===============
+2020-09-02 22:00:49,260 py30 INFO conftest.py-20 line：========== class级 前置操作:打开谷歌浏览器,访问系统登陆页面 ===============
+2020-09-02 22:01:04,498 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:01:04,545 py30 INFO basepage.py-78 line：等待耗时为：0.04697132110595703
+2020-09-02 22:01:04,546 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:01:04,562 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：
+2020-09-02 22:01:04,706 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:01:04,767 py30 INFO basepage.py-78 line：等待耗时为：0.059961795806884766
+2020-09-02 22:01:04,767 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:01:04,802 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:01:05,216 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:01:05,278 py30 INFO basepage.py-78 line：等待耗时为：0.06164050102233887
+2020-09-02 22:01:05,279 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:01:05,325 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:01:05,540 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:01:05,588 py30 INFO basepage.py-78 line：等待耗时为：0.04697012901306152
+2020-09-02 22:01:05,589 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:01:05,616 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:01:05,693 py30 INFO basepage.py-151 line：文本值为：请输入手机号
+2020-09-02 22:01:06,555 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:01:06,590 py30 INFO basepage.py-78 line：等待耗时为：0.035050392150878906
+2020-09-02 22:01:06,590 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:01:06,627 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 22:01:07,393 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:01:07,422 py30 INFO basepage.py-78 line：等待耗时为：0.029133319854736328
+2020-09-02 22:01:07,423 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:01:07,459 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：
+2020-09-02 22:01:07,620 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:01:07,654 py30 INFO basepage.py-78 line：等待耗时为：0.03397989273071289
+2020-09-02 22:01:07,654 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:01:07,678 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:01:07,887 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:01:07,941 py30 INFO basepage.py-78 line：等待耗时为：0.052579402923583984
+2020-09-02 22:01:07,941 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:01:07,986 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:01:08,044 py30 INFO basepage.py-151 line：文本值为：请输入密码
+2020-09-02 22:01:08,822 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:01:08,874 py30 INFO basepage.py-78 line：等待耗时为：0.05109667778015137
+2020-09-02 22:01:08,874 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:01:08,922 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：1868472055
+2020-09-02 22:01:09,444 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:01:09,475 py30 INFO basepage.py-78 line：等待耗时为：0.02997899055480957
+2020-09-02 22:01:09,476 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:01:09,560 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:01:10,097 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:01:10,124 py30 INFO basepage.py-78 line：等待耗时为：0.0259549617767334
+2020-09-02 22:01:10,125 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:01:10,156 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:01:10,380 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:01:10,427 py30 INFO basepage.py-78 line：等待耗时为：0.04697275161743164
+2020-09-02 22:01:10,427 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:01:10,454 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:01:10,522 py30 INFO basepage.py-151 line：文本值为：请输入正确的手机号
+2020-09-02 22:01:11,441 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:01:11,473 py30 INFO basepage.py-78 line：等待耗时为：0.031050443649291992
+2020-09-02 22:01:11,474 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:01:11,495 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：186847205531
+2020-09-02 22:01:12,340 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:01:12,373 py30 INFO basepage.py-78 line：等待耗时为：0.03298020362854004
+2020-09-02 22:01:12,373 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:01:12,427 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:01:12,773 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:01:12,831 py30 INFO basepage.py-78 line：等待耗时为：0.05653643608093262
+2020-09-02 22:01:12,832 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:01:12,855 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:01:13,069 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:01:13,108 py30 INFO basepage.py-78 line：等待耗时为：0.037978172302246094
+2020-09-02 22:01:13,109 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:01:13,142 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:01:13,191 py30 INFO basepage.py-151 line：文本值为：请输入正确的手机号
+2020-09-02 22:01:14,022 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:01:14,054 py30 INFO basepage.py-78 line：等待耗时为：0.031981706619262695
+2020-09-02 22:01:14,054 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:01:14,089 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 22:01:14,671 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:01:14,722 py30 INFO basepage.py-78 line：等待耗时为：0.04996967315673828
+2020-09-02 22:01:14,723 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:01:14,759 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:01:15,203 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:01:15,234 py30 INFO basepage.py-78 line：等待耗时为：0.02999091148376465
+2020-09-02 22:01:15,235 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:01:15,252 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:01:15,443 py30 INFO basepage.py-44 line：在 首页_等待退出元素可见 行为，等待元素：('xpath', '//a[text()="退出"]') 可见。
+2020-09-02 22:01:18,053 py30 INFO basepage.py-56 line：等待耗时为：2.6101062297821045
+2020-09-02 22:01:18,067 py30 INFO conftest.py-25 line：========== class级 后置操作:关闭谷歌浏览器,退出会话 ===============
+2020-09-02 22:04:12,960 py30 INFO my_logger.py-48 line：1111111111111111
+2020-09-02 22:04:13,259 py30 INFO conftest.py-20 line：========== class级 前置操作:打开谷歌浏览器,访问系统登陆页面 ===============
+2020-09-02 22:04:27,616 py30 INFO conftest.py-36 line：========== class级 前置操作:登陆系统 ===============
+2020-09-02 22:04:27,619 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:04:27,687 py30 INFO basepage.py-78 line：等待耗时为：0.06696438789367676
+2020-09-02 22:04:27,687 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:04:27,713 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 22:04:28,710 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:04:28,853 py30 INFO basepage.py-78 line：等待耗时为：0.14274358749389648
+2020-09-02 22:04:28,854 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:04:28,949 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:04:29,426 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:04:29,489 py30 INFO basepage.py-78 line：等待耗时为：0.06196331977844238
+2020-09-02 22:04:29,489 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:04:29,561 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:04:33,813 py30 INFO test_invest.py-23 line： **** 正向用例:登陆成功   检验:用户余额是否变化,标的可余额是否变化 ***** 
+2020-09-02 22:04:33,814 py30 INFO basepage.py-66 line：在 首页_点击抢投标按钮 行为，等待元素：('xpath', '//a[@class="btn btn-special"]') 存在。
+2020-09-02 22:04:34,096 py30 INFO basepage.py-78 line：等待耗时为：0.2813584804534912
+2020-09-02 22:04:34,096 py30 INFO basepage.py-97 line：在 首页_点击抢投标按钮 行为，查找元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:04:34,386 py30 INFO basepage.py-113 line：在 首页_点击抢投标按钮 行为，点击元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:04:39,826 py30 INFO basepage.py-66 line：在 标页面_获取用户余额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 22:04:39,939 py30 INFO basepage.py-78 line：等待耗时为：0.11130714416503906
+2020-09-02 22:04:39,939 py30 INFO basepage.py-97 line：在 标页面_获取用户余额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 22:04:39,988 py30 INFO basepage.py-157 line：在 标页面_获取用户余额 行为，获取元素 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 的 data-amount 属性值。
+2020-09-02 22:04:40,030 py30 INFO basepage.py-165 line：属性值为：6122499963.42
+2020-09-02 22:04:40,030 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 22:04:40,086 py30 INFO basepage.py-78 line：等待耗时为：0.055966854095458984
+2020-09-02 22:04:40,087 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 22:04:40,124 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 22:04:40,207 py30 INFO basepage.py-151 line：文本值为：9.79
+2020-09-02 22:04:40,207 py30 INFO basepage.py-66 line：在 标页面_输入投资金额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 22:04:40,256 py30 INFO basepage.py-78 line：等待耗时为：0.04796910285949707
+2020-09-02 22:04:40,257 py30 INFO basepage.py-97 line：在 标页面_输入投资金额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 22:04:40,306 py30 INFO basepage.py-124 line：在 标页面_输入投资金额 行为，给元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本值：2000
+2020-09-02 22:04:40,878 py30 INFO basepage.py-66 line：在 标页面_点投资按钮 行为，等待元素：('xpath', '//button[text()="投标"]') 存在。
+2020-09-02 22:04:40,937 py30 INFO basepage.py-78 line：等待耗时为：0.0579686164855957
+2020-09-02 22:04:40,937 py30 INFO basepage.py-97 line：在 标页面_点投资按钮 行为，查找元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:04:41,027 py30 INFO basepage.py-113 line：在 标页面_点投资按钮 行为，点击元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:04:41,378 py30 INFO basepage.py-66 line：在 标页面_点击激活并查看按钮 行为，等待元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 存在。
+2020-09-02 22:04:42,059 py30 INFO basepage.py-78 line：等待耗时为：0.6809911727905273
+2020-09-02 22:04:42,060 py30 INFO basepage.py-97 line：在 标页面_点击激活并查看按钮 行为，查找元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 22:04:42,143 py30 INFO basepage.py-113 line：在 标页面_点击激活并查看按钮 行为，点击元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+2020-09-02 22:05:00,747 py30 INFO basepage.py-66 line：在 用户页面_获取用户可用余额 行为，等待元素：('xpath', '//li[@class="color_sub"]') 存在。
+2020-09-02 22:05:00,840 py30 INFO basepage.py-78 line：等待耗时为：0.09195947647094727
+2020-09-02 22:05:00,841 py30 INFO basepage.py-97 line：在 用户页面_获取用户可用余额 行为，查找元素：('xpath', '//li[@class="color_sub"]')
+2020-09-02 22:05:00,877 py30 INFO basepage.py-143 line：在 用户页面_获取用户可用余额 行为，获取元素 ('xpath', '//li[@class="color_sub"]') 的文本值。
+2020-09-02 22:05:00,933 py30 INFO basepage.py-151 line：文本值为：6122497963.42元
+2020-09-02 22:05:00,935 py30 INFO basepage.py-180 line：回退到上一页
+2020-09-02 22:05:02,593 py30 INFO basepage.py-185 line：刷新当前页面
+2020-09-02 22:05:07,200 py30 INFO basepage.py-66 line：在 标页面_获取标可投资余额 行为，等待元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 存在。
+2020-09-02 22:05:07,271 py30 INFO basepage.py-78 line：等待耗时为：0.07156991958618164
+2020-09-02 22:05:07,271 py30 INFO basepage.py-97 line：在 标页面_获取标可投资余额 行为，查找元素：('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')
+2020-09-02 22:05:07,336 py30 INFO basepage.py-143 line：在 标页面_获取标可投资余额 行为，获取元素 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 的文本值。
+2020-09-02 22:05:07,405 py30 INFO basepage.py-151 line：文本值为：9.59
+2020-09-02 22:05:08,954 py30 INFO test_invest.py-54 line： **** 异常用例:投资失败   检验:???? ***** 
+2020-09-02 22:05:08,955 py30 INFO basepage.py-66 line：在 首页_点击抢投标按钮 行为，等待元素：('xpath', '//a[@class="btn btn-special"]') 存在。
+2020-09-02 22:05:09,026 py30 INFO basepage.py-78 line：等待耗时为：0.06995892524719238
+2020-09-02 22:05:09,027 py30 INFO basepage.py-97 line：在 首页_点击抢投标按钮 行为，查找元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:05:09,078 py30 INFO basepage.py-113 line：在 首页_点击抢投标按钮 行为，点击元素：('xpath', '//a[@class="btn btn-special"]')
+2020-09-02 22:05:13,656 py30 INFO basepage.py-66 line：在 标页面_输入投资金额 行为，等待元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 存在。
+2020-09-02 22:05:13,692 py30 INFO basepage.py-78 line：等待耗时为：0.03497791290283203
+2020-09-02 22:05:13,692 py30 INFO basepage.py-97 line：在 标页面_输入投资金额 行为，查找元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]")
+2020-09-02 22:05:13,751 py30 INFO basepage.py-124 line：在 标页面_输入投资金额 行为，给元素：('xpath', "//input[contains(@class,'invest-unit-investinput')]") 输入文本值：50
+2020-09-02 22:05:13,998 py30 INFO basepage.py-66 line：在 标页面_点投资按钮 行为，等待元素：('xpath', '//button[text()="投标"]') 存在。
+2020-09-02 22:05:14,092 py30 INFO basepage.py-78 line：等待耗时为：0.0929560661315918
+2020-09-02 22:05:14,093 py30 INFO basepage.py-97 line：在 标页面_点投资按钮 行为，查找元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:05:14,135 py30 INFO basepage.py-113 line：在 标页面_点投资按钮 行为，点击元素：('xpath', '//button[text()="投标"]')
+2020-09-02 22:05:14,406 py30 INFO basepage.py-66 line：在 标页面_获取投资失败弹出框的文本 行为，等待元素：('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 存在。
+2020-09-02 22:05:15,067 py30 INFO basepage.py-78 line：等待耗时为：0.6608724594116211
+2020-09-02 22:05:15,067 py30 INFO basepage.py-97 line：在 标页面_获取投资失败弹出框的文本 行为，查找元素：('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]')
+2020-09-02 22:05:15,110 py30 INFO basepage.py-143 line：在 标页面_获取投资失败弹出框的文本 行为，获取元素 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 的文本值。
+2020-09-02 22:05:15,141 py30 INFO basepage.py-151 line：文本值为：投标金额必须为100的倍数
+2020-09-02 22:05:15,149 py30 INFO conftest.py-25 line：========== class级 后置操作:关闭谷歌浏览器,退出会话 ===============
+2020-09-02 22:05:17,786 py30 INFO conftest.py-20 line：========== class级 前置操作:打开谷歌浏览器,访问系统登陆页面 ===============
+2020-09-02 22:05:33,157 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:05:33,207 py30 INFO basepage.py-78 line：等待耗时为：0.0499722957611084
+2020-09-02 22:05:33,208 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:05:33,246 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：
+2020-09-02 22:05:33,461 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:05:33,510 py30 INFO basepage.py-78 line：等待耗时为：0.04897475242614746
+2020-09-02 22:05:33,511 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:05:33,549 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:05:34,268 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:05:34,308 py30 INFO basepage.py-78 line：等待耗时为：0.039975881576538086
+2020-09-02 22:05:34,308 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:05:34,344 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:05:34,533 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:05:34,593 py30 INFO basepage.py-78 line：等待耗时为：0.055968523025512695
+2020-09-02 22:05:34,594 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:05:34,634 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:05:34,767 py30 INFO basepage.py-151 line：文本值为：请输入手机号
+2020-09-02 22:05:35,563 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:05:35,611 py30 INFO basepage.py-78 line：等待耗时为：0.047020912170410156
+2020-09-02 22:05:35,611 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:05:35,639 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 22:05:36,379 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:05:36,449 py30 INFO basepage.py-78 line：等待耗时为：0.06995892524719238
+2020-09-02 22:05:36,450 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:05:36,482 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：
+2020-09-02 22:05:36,702 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:05:36,745 py30 INFO basepage.py-78 line：等待耗时为：0.041982412338256836
+2020-09-02 22:05:36,746 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:05:36,803 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:05:36,966 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:05:37,045 py30 INFO basepage.py-78 line：等待耗时为：0.07795381546020508
+2020-09-02 22:05:37,046 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:05:37,075 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:05:37,130 py30 INFO basepage.py-151 line：文本值为：请输入密码
+2020-09-02 22:05:38,272 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:05:38,408 py30 INFO basepage.py-78 line：等待耗时为：0.13592100143432617
+2020-09-02 22:05:38,408 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:05:38,645 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：1868472055
+2020-09-02 22:05:39,591 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:05:39,624 py30 INFO basepage.py-78 line：等待耗时为：0.03301692008972168
+2020-09-02 22:05:39,625 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:05:39,656 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:05:40,189 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:05:40,256 py30 INFO basepage.py-78 line：等待耗时为：0.06696224212646484
+2020-09-02 22:05:40,256 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:05:40,333 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:05:40,644 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:05:40,702 py30 INFO basepage.py-78 line：等待耗时为：0.05696558952331543
+2020-09-02 22:05:40,702 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:05:40,732 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:05:40,834 py30 INFO basepage.py-151 line：文本值为：请输入正确的手机号
+2020-09-02 22:05:41,743 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:05:41,810 py30 INFO basepage.py-78 line：等待耗时为：0.06607723236083984
+2020-09-02 22:05:41,811 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:05:41,866 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：186847205531
+2020-09-02 22:05:42,921 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:05:42,977 py30 INFO basepage.py-78 line：等待耗时为：0.055967092514038086
+2020-09-02 22:05:42,978 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:05:43,015 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:05:43,532 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:05:43,559 py30 INFO basepage.py-78 line：等待耗时为：0.026985645294189453
+2020-09-02 22:05:43,559 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:05:43,592 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:05:43,848 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-09-02 22:05:43,906 py30 INFO basepage.py-78 line：等待耗时为：0.056963205337524414
+2020-09-02 22:05:43,907 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-09-02 22:05:43,933 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-09-02 22:05:44,030 py30 INFO basepage.py-151 line：文本值为：请输入正确的手机号
+2020-09-02 22:05:45,127 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-09-02 22:05:45,212 py30 INFO basepage.py-78 line：等待耗时为：0.08495020866394043
+2020-09-02 22:05:45,213 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-09-02 22:05:45,270 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-09-02 22:05:45,888 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-09-02 22:05:45,922 py30 INFO basepage.py-78 line：等待耗时为：0.032984018325805664
+2020-09-02 22:05:45,922 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-09-02 22:05:45,945 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-09-02 22:05:46,800 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-09-02 22:05:46,861 py30 INFO basepage.py-78 line：等待耗时为：0.0600888729095459
+2020-09-02 22:05:46,862 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-09-02 22:05:46,920 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-09-02 22:05:47,201 py30 INFO basepage.py-44 line：在 首页_等待退出元素可见 行为，等待元素：('xpath', '//a[text()="退出"]') 可见。
+2020-09-02 22:05:51,207 py30 INFO basepage.py-56 line：等待耗时为：4.005422830581665
+2020-09-02 22:05:51,222 py30 INFO conftest.py-25 line：========== class级 后置操作:关闭谷歌浏览器,退出会话 ===============

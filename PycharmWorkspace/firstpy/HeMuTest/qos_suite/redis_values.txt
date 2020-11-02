@@ -1,0 +1,2 @@
+*** Variables ***
+&{CheckOperationCode}    key=osh.app.oprNum_19926359:2059a0caa3d9:39_month_7_01:a1d263f249e54b4fbb0243da8352328b    value=19926359:2059a0caa3d9:39_month_7_01:a1d263f249e54b4fbb0243da8352328b

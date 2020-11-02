@@ -1,0 +1,119 @@
+{
+  "uid" : "d61073ebd47cb94f",
+  "name" : "test_login_failed_invalid_data[case0]",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_failed_invalid_data",
+  "historyId" : "f0bfd36e151bd6809e3bea92a4f95e89",
+  "time" : {
+    "start" : 1599055533157,
+    "stop" : 1599055534769,
+    "duration" : 1612
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1599055517786,
+      "stop" : 1599055532369,
+      "duration" : 14583
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "back_login",
+    "time" : {
+      "start" : 1599055532369,
+      "stop" : 1599055533156,
+      "duration" : 787
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init::0",
+    "time" : {
+      "start" : 1599055551223,
+      "stop" : 1599055554082,
+      "duration" : 2859
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "back_login::0",
+    "time" : {
+      "start" : 1599055534790,
+      "stop" : 1599055534791,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "CY-20190809JTFQ"
+  }, {
+    "name" : "thread",
+    "value" : "5776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'user': '', 'passwd': 'python', 'check': '请输入手机号'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d61073ebd47cb94f.json",
+  "parameterValues" : [ "{'user': '', 'passwd': 'python', 'check': '请输入手机号'}" ]
+}

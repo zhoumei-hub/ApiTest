@@ -1,0 +1,91 @@
+﻿*** Settings ***
+Library           python_lib/python_operation_lib.py
+
+*** Keywords ***
+hemu_exec_query_sql
+    [Arguments]    ${sql}
+    log    ${sql}
+    ${query_result}    python_sql_query    ${sql}
+    log    ${query_result}
+    [Return]    ${query_result}
+
+hemu_exec_commit_one_sql
+    [Arguments]    ${sql}
+    log    ${sql}
+    ${exec_result}    python_sql_commit    ${sql}
+    log    ${exec_result}
+    [Return]    ${exec_result}
+
+hemu_exec_commit_two_sql
+    [Arguments]    ${sql_1}    ${sql_2}    # 按顺序依次执行sql_1,sql_2
+    log    ${sql_1}
+    ${exec_result}    python_sql_commit    ${sql_1}
+    log    ${exec_result}
+    log    ${sql_2}
+    ${exec_result}    python_sql_commit    ${sql_2}
+    log    ${exec_result}
+    [Return]    ${exec_result}
+
+hemu_exec_commit_three_sql
+    [Arguments]    ${sql_1}    ${sql_2}    ${sql_3}    # 按顺序依次执行sql_1,sql_2,sql_3
+    log    ${sql_1}
+    ${exec_result}    python_sql_commit    ${sql_1}
+    log    ${exec_result}
+    log    ${sql_2}
+    ${exec_result}    python_sql_commit    ${sql_2}
+    log    ${exec_result}
+    log    ${sql_3}
+    ${exec_result}    python_sql_commit    ${sql_3}
+    log    ${exec_result}
+    [Return]    ${exec_result}
+
+hemu_exec_commit_four_sql
+    [Arguments]    ${sql_1}    ${sql_2}    ${sql_3}    ${sql_4}    # 按顺序依次执行sql_1,sql_2,sql_3,sql4
+    log    ${sql_1}
+    ${exec_result}    python_sql_commit    ${sql_1}
+    log    ${exec_result}
+    log    ${sql_2}
+    ${exec_result}    python_sql_commit    ${sql_2}
+    log    ${exec_result}
+    log    ${sql_3}
+    ${exec_result}    python_sql_commit    ${sql_3}
+    log    ${exec_result}
+    log    ${sql_4}
+    ${exec_result}    python_sql_commit    ${sql_4}
+    log    ${exec_result}
+    [Return]    ${exec_result}
+
+hemu_exec_commit_six_sql
+    [Arguments]    ${sql_1}    ${sql_2}    ${sql_3}    ${sql_4}    ${sql_5}    ${sql_6}
+    log    ${sql_1}
+    ${exec_result}    python_sql_commit    ${sql_1}
+    log    ${exec_result}
+    log    ${sql_2}
+    ${exec_result}    python_sql_commit    ${sql_2}
+    log    ${exec_result}
+    log    ${sql_3}
+    ${exec_result}    python_sql_commit    ${sql_3}
+    log    ${exec_result}
+    log    ${sql_4}
+    ${exec_result}    python_sql_commit    ${sql_4}
+    log    ${exec_result}
+    log    ${sql_5}
+    ${exec_result}    python_sql_commit    ${sql_5}
+    log    ${exec_result}
+    log    ${sql_6}
+    ${exec_result}    python_sql_commit    ${sql_6}
+    log    ${exec_result}
+    [Return]    ${exec_result}
+
+hemu_query_db_result
+    [Arguments]    ${sql}    ${expect_value}
+    ${result}    python_sql_query    ${sql}
+    log    ${result}
+    ${result}    Set Variable    ${result}[0][0]
+    log    ${result}
+    Should Be Equal    int(${result})    int(${expect_value})
+
+hemu_exec_commit_sql
+    [Arguments]    @{commit_sqls}
+    :FOR    ${sql}    IN    @{commit_sqls}
+    \    python_sql_commit    ${sql}

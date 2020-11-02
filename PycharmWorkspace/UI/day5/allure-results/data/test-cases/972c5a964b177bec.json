@@ -1,0 +1,125 @@
+{
+  "uid" : "972c5a964b177bec",
+  "name" : "test_login_failed_invalid_data[case2]",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_failed_invalid_data",
+  "historyId" : "e60344e31024accddf6073cc86c6051a",
+  "time" : {
+    "start" : 1599055538271,
+    "stop" : 1599055540844,
+    "duration" : 2573
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '请输入正确的手机号' == '请输入手机号'\n  - 请输入手机号\n  + 请输入正确的手机号\n  ?    +++",
+  "statusTrace" : "self = <TestCases.test_login.TestLogin object at 0x0000020B9FC49198>\ncase = {'check': '请输入手机号', 'passwd': 'python', 'user': '1868472055'}\nback_login = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"790aeb4011e5dcb3091bfb152321d676\")>\n\n    @pytest.mark.parametrize(\"case\",td.invalid_data)\n    def test_login_failed_invalid_data(self,case,back_login):\n        LoginPage(back_login).login(case[\"user\"], case[\"passwd\"])\n>       assert LoginPage(back_login).get_error_msg_from_login_area() == case[\"check\"]\nE       AssertionError: assert '请输入正确的手机号' == '请输入手机号'\nE         - 请输入手机号\nE         + 请输入正确的手机号\nE         ?    +++\n\nTestCases\\test_login.py:28: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1599055517786,
+      "stop" : 1599055532369,
+      "duration" : 14583
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "back_login",
+    "time" : {
+      "start" : 1599055537169,
+      "stop" : 1599055538268,
+      "duration" : 1099
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init::0",
+    "time" : {
+      "start" : 1599055551223,
+      "stop" : 1599055554082,
+      "duration" : 2859
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "back_login::0",
+    "time" : {
+      "start" : 1599055540880,
+      "stop" : 1599055540880,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "CY-20190809JTFQ"
+  }, {
+    "name" : "thread",
+    "value" : "5776-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "{'user': '1868472055', 'passwd': 'python', 'check': '请输入手机号'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "972c5a964b177bec.json",
+  "parameterValues" : [ "{'user': '1868472055', 'passwd': 'python', 'check': '请输入手机号'}" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1999.9999999999854 == 2000\n  +1999.9999999999854\n  -2000",
+      "children" : [ {
+        "name" : "test_invest_success",
+        "uid" : "90c7893dcca48435",
+        "parentUid" : "d882bb3c7158a8d3aa51fa402d0df001",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599055473808,
+          "stop" : 1599055507408,
+          "duration" : 33600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d882bb3c7158a8d3aa51fa402d0df001"
+    }, {
+      "name" : "AssertionError: assert '请输入正确的手机号' == '请输入手机号'\n  - 请输入手机号\n  + 请输入正确的手机号\n  ?    +++",
+      "children" : [ {
+        "name" : "test_login_failed_invalid_data[case2]",
+        "uid" : "972c5a964b177bec",
+        "parentUid" : "67f4019d7d48a0000e97a90c556a70a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599055538271,
+          "stop" : 1599055540844,
+          "duration" : 2573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '1868472055', 'passwd': 'python', 'check': '请输入手机号'}" ]
+      }, {
+        "name" : "test_login_failed_invalid_data[case3]",
+        "uid" : "129db184fca1c9bf",
+        "parentUid" : "67f4019d7d48a0000e97a90c556a70a8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1599055541744,
+          "stop" : 1599055544034,
+          "duration" : 2290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '186847205531', 'passwd': 'python', 'check': '请输入手机号'}" ]
+      } ],
+      "uid" : "67f4019d7d48a0000e97a90c556a70a8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

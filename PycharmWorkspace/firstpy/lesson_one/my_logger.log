@@ -1,0 +1,31 @@
+2020-09-19 10:47:35,491 py30 INFO my_logger.py-36 line：测试，我自己封装的日志类！！！！
+2020-09-19 10:56:29,591 py30 INFO test_login.py-29 line：***********  开始执行测试用例 **************
+2020-09-19 10:56:29,591 py30 INFO test_login.py-30 line：测试数据为：{'user': 'python27', 'passwd': 'lemonban66666', 'check': '{"code": 0, "msg": "登录成功"}'}
+2020-09-19 10:56:29,591 py30 INFO test_login.py-33 line：实际运行结果为：{'code': 1, 'msg': '账号或密码不正确'}
+2020-09-19 10:56:29,591 py30 ERROR test_login.py-38 line：断言失败，用例不通过！
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\lesson_one\test_login.py", line 36, in test_login
+    self.assertEqual(res,eval(case["check"]))
+  File "G:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "G:\Python38\lib\unittest\case.py", line 1211, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "G:\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 1, 'msg': '账号或密码不正确'} != {'code': 0, 'msg': '登录成功'}
+- {'code': 1, 'msg': '账号或密码不正确'}
+?          ^          ^^^^^^^^
+
++ {'code': 0, 'msg': '登录成功'}
+?          ^          ^^^^
+
+2020-09-19 10:56:29,619 py30 INFO test_login.py-29 line：***********  开始执行测试用例 **************
+2020-09-19 10:56:29,619 py30 INFO test_login.py-30 line：测试数据为：{'user': 'python27', 'passwd': 'lemonban11', 'check': '{"code": 1, "msg": "账号或密码不正确"}'}
+2020-09-19 10:56:29,619 py30 INFO test_login.py-33 line：实际运行结果为：{'code': 1, 'msg': '账号或密码不正确'}
+2020-09-19 10:56:29,619 py30 INFO test_login.py-41 line：断言成功，用例通过！
+2020-09-19 10:56:29,619 py30 INFO test_login.py-42 line：***********  测试用例执行结束 **************
+2020-09-19 10:56:29,619 py30 INFO test_login.py-29 line：***********  开始执行测试用例 **************
+2020-09-19 10:56:29,619 py30 INFO test_login.py-30 line：测试数据为：{'user': 'python25', 'passwd': 'lemonban', 'check': '{"code": 1, "msg": "账号或密码不正确"}'}
+2020-09-19 10:56:29,619 py30 INFO test_login.py-33 line：实际运行结果为：{'code': 1, 'msg': '账号或密码不正确'}
+2020-09-19 10:56:29,619 py30 INFO test_login.py-41 line：断言成功，用例通过！
+2020-09-19 10:56:29,619 py30 INFO test_login.py-42 line：***********  测试用例执行结束 **************

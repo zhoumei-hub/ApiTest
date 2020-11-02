@@ -1,0 +1,1129 @@
+2020-09-23 23:16:21,754 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:16:21,754 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-23 23:16:21,754 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:16:21,755 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/http://api.lemonban.com/futureloan/member/login
+2020-09-23 23:16:21,755 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13845467789', 'pwd': '1234567890'}
+2020-09-23 23:16:23,162 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:16:23,163 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1004, 'msg': 'No handler found for POST /futureloan/http://api.lemonban.com/futureloan/member/login', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-23 23:17:18,465 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:17:18,466 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-23 23:17:18,466 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:17:18,466 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/http://api.lemonban.com/futureloan/member/login
+2020-09-23 23:17:18,466 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13845467789', 'pwd': '1234567890'}
+2020-09-23 23:17:18,582 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:17:18,583 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1004, 'msg': 'No handler found for POST /futureloan/http://api.lemonban.com/futureloan/member/login', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-23 23:18:46,847 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:18:46,847 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-23 23:18:46,847 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:18:46,847 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/futureloan/member/login
+2020-09-23 23:18:46,848 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13845467789', 'pwd': '1234567890'}
+2020-09-23 23:18:46,959 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:18:46,959 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1004, 'msg': 'No handler found for POST /futureloan/futureloan/member/login', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-23 23:19:33,420 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:19:33,421 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-23 23:19:33,421 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:19:33,421 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/login
+2020-09-23 23:19:33,421 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13845467789', 'pwd': '1234567890'}
+2020-09-23 23:19:33,659 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:19:33,659 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 12657, 'leave_amount': 6600.0, 'mobile_phone': '13845467789', 'reg_name': '小柠檬', 'reg_time': '2020-09-08 14:34:51.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-09-23 23:24:38', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEyNjU3LCJleHAiOjE2MDA4NzQ2Nzh9.sybKX9LcthVDY9IeNyW01Zh0OaEH4EMbmfJHgW1dcciOmvG-Df2rLvnBdre1echejsc5w3OKRoqDIFlrrYPzFg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-23 23:19:59,398 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:19:59,398 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-23 23:19:59,398 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:19:59,399 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/login
+2020-09-23 23:19:59,399 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13845467789', 'pwd': '1234567890'}
+2020-09-23 23:19:59,519 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:19:59,520 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 12657, 'leave_amount': 6600.0, 'mobile_phone': '13845467789', 'reg_name': '小柠檬', 'reg_time': '2020-09-08 14:34:51.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-09-23 23:25:03', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEyNjU3LCJleHAiOjE2MDA4NzQ3MDN9.Mz4nPZ0fXtkdZMAD4rACjc_BZCfr3v0Z9D58JBzNdj0u4lCfIVrMh-F5tzmucrQzC6OjfvUfaHC3VyT_sXdi4g'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-23 23:19:59,520 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:19:59,520 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEyNjU3LCJleHAiOjE2MDA4NzQ3MDN9.Mz4nPZ0fXtkdZMAD4rACjc_BZCfr3v0Z9D58JBzNdj0u4lCfIVrMh-F5tzmucrQzC6OjfvUfaHC3VyT_sXdi4g'}
+2020-09-23 23:19:59,520 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:19:59,520 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/recharge
+2020-09-23 23:19:59,520 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'member_id': 200119, 'amount': 2000}
+2020-09-23 23:19:59,632 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:19:59,633 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1007, 'msg': '无权限访问，请检查参数', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-23 23:23:07,530 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:23:07,530 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-23 23:23:07,530 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:23:07,530 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/login
+2020-09-23 23:23:07,530 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13845467789', 'pwd': '1234567890'}
+2020-09-23 23:23:07,934 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:23:07,935 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 12657, 'leave_amount': 6600.0, 'mobile_phone': '13845467789', 'reg_name': '小柠檬', 'reg_time': '2020-09-08 14:34:51.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2020-09-23 23:28:12', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjEyNjU3LCJleHAiOjE2MDA4NzQ4OTJ9.U4FPL7oSbLkACzIZoXOT_EuLJ3JoCG6L6WR3xy3Hp7vcTo6qju7dnRF-DuMawKRix4u8HZJFCrZ7PnU6tND8zg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-23 23:23:07,937 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-23 23:23:07,937 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-23 23:23:07,937 qianchengdai INFO handle_requests.py-41 line：请求方法为：POST
+2020-09-23 23:23:07,937 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/recharge
+2020-09-23 23:23:07,938 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'member_id': 200119, 'amount': 2000}
+2020-09-23 23:23:08,176 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-23 23:23:08,176 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '未授权或token已过期'}
+2020-09-23 23:42:56,571 qianchengdai INFO my_logger.py-49 line：1111111111111111
+2020-09-24 10:21:23,570 qianchengdai INFO test_register.py-34 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:21:23,576 qianchengdai INFO test_register.py-44 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:21:23,972 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:23,973 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:23,973 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:23,973 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:23,973 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '14536457911', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:21:24,208 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:24,208 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135907, 'reg_name': '美丽可爱的小简', 'mobile_phone': '14536457911'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:24,208 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:21:24,411 qianchengdai INFO test_register.py-44 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:21:24,740 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:24,740 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:24,740 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:24,741 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:24,741 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '18780067443', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:21:24,910 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:24,910 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135908, 'reg_name': '小柠檬', 'mobile_phone': '18780067443'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:24,911 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:21:24,911 qianchengdai ERROR test_register.py-70 line：断言失败！
+Traceback (most recent call last):
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "G:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "G:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\qianchengdai\TestCases\test_register.py", line 62, in test_register_ok
+    self.assertEqual(response.json()["code"],expected["code"])
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1
+2020-09-24 10:21:24,940 qianchengdai INFO test_register.py-44 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:21:24,940 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:24,940 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:24,940 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:24,940 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:24,940 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:21:25,047 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,047 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,047 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:21:25,048 qianchengdai INFO test_register.py-44 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:21:25,048 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,048 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,048 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,048 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,048 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:21:25,161 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,161 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,162 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:21:25,163 qianchengdai INFO test_register.py-44 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:21:25,163 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,163 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,164 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,164 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,164 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:21:25,267 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,267 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,268 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:21:25,269 qianchengdai INFO test_register.py-44 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:21:25,269 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,269 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,269 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,269 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,269 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:21:25,369 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,369 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,369 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:21:25,370 qianchengdai INFO test_register.py-44 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:21:25,370 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,370 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,371 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,371 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,371 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:21:25,555 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,555 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,555 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:21:25,555 qianchengdai INFO test_register.py-44 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:21:25,555 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,556 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,556 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,556 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,556 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:21:25,658 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,658 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,658 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:21:25,659 qianchengdai INFO test_register.py-44 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:21:25,659 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,659 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,659 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,659 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,659 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:21:25,777 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,777 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,777 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:21:25,778 qianchengdai INFO test_register.py-44 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:21:25,778 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,778 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,778 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,778 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,778 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:21:25,879 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,879 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,879 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:21:25,879 qianchengdai INFO test_register.py-44 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:21:25,880 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,880 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,880 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,880 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,880 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:21:25,988 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:25,988 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:25,988 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:21:25,989 qianchengdai INFO test_register.py-44 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:21:25,989 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:25,989 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:25,989 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:25,989 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:25,989 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:21:26,090 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:26,091 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:26,091 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:21:26,091 qianchengdai INFO test_register.py-44 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:21:26,460 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:21:26,461 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:21:26,461 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:21:26,461 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:21:26,461 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '14515034691', 'pwd': '12345678'}
+2020-09-24 10:21:26,659 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:21:26,659 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135909, 'reg_name': '小柠檬', 'mobile_phone': '14515034691'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:21:26,660 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:21:26,844 qianchengdai INFO test_register.py-38 line：======  注册模块用例 执行结束  ========
+2020-09-24 10:25:21,353 qianchengdai INFO test_register.py-35 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:25:21,356 qianchengdai INFO test_register.py-45 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:25:21,723 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:21,723 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:21,723 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:21,723 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:21,724 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '17715101926', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:25:21,935 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:21,935 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135910, 'reg_name': '美丽可爱的小简', 'mobile_phone': '17715101926'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:21,936 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:25:22,102 qianchengdai INFO test_register.py-45 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:25:22,481 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:22,482 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:22,482 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:22,482 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:22,482 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13257715623', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:25:22,668 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:22,669 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135911, 'reg_name': '小柠檬', 'mobile_phone': '13257715623'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:22,669 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:25:22,669 qianchengdai ERROR test_register.py-71 line：断言失败！
+Traceback (most recent call last):
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "G:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "G:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\qianchengdai\TestCases\test_register.py", line 63, in test_register_ok
+    self.assertEqual(response.json()["code"],expected["code"])
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 1
+2020-09-24 10:25:22,672 qianchengdai INFO test_register.py-45 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:25:22,672 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:22,672 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:22,672 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:22,672 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:22,672 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:25:22,778 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:22,778 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:22,778 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:25:22,779 qianchengdai INFO test_register.py-45 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:25:22,779 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:22,779 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:22,779 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:22,779 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:22,779 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:25:22,895 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:22,895 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:22,896 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:25:22,896 qianchengdai INFO test_register.py-45 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:25:22,896 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:22,897 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:22,897 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:22,897 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:22,897 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:25:23,052 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,052 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,053 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:25:23,053 qianchengdai INFO test_register.py-45 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:25:23,053 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:23,054 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:23,054 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:23,054 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:23,054 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:25:23,152 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,152 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,152 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:25:23,153 qianchengdai INFO test_register.py-45 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:25:23,153 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:23,153 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:23,153 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:23,153 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:23,153 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:25:23,303 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,303 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,303 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:25:23,304 qianchengdai INFO test_register.py-45 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:25:23,304 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:23,304 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:23,304 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:23,304 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:23,305 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:25:23,431 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,431 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,431 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:25:23,432 qianchengdai INFO test_register.py-45 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:25:23,432 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:23,432 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:23,432 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:23,432 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:23,432 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:25:23,547 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,547 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,547 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:25:23,548 qianchengdai INFO test_register.py-45 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:25:23,548 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:23,548 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:23,548 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:23,548 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:23,548 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:25:23,653 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,654 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,654 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:25:23,654 qianchengdai INFO test_register.py-45 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:25:23,654 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:23,655 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:23,655 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:23,655 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:23,655 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:25:23,754 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,754 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,755 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:25:23,755 qianchengdai INFO test_register.py-45 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:25:23,755 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:23,756 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:23,756 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:23,756 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:23,756 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:25:23,859 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:23,860 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:23,860 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:25:23,860 qianchengdai INFO test_register.py-45 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:25:24,227 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:25:24,227 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:25:24,227 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:25:24,227 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:25:24,227 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '18275224496', 'pwd': '12345678'}
+2020-09-24 10:25:24,423 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:25:24,423 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135912, 'reg_name': '小柠檬', 'mobile_phone': '18275224496'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:25:24,424 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:25:24,596 qianchengdai INFO test_register.py-39 line：======  注册模块用例 执行结束  ========
+2020-09-24 10:26:57,929 qianchengdai INFO test_register.py-35 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:26:57,934 qianchengdai INFO test_register.py-45 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:26:58,321 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:58,321 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:58,321 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:58,321 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:58,321 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13585511956', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:26:58,616 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:58,616 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135913, 'reg_name': '美丽可爱的小简', 'mobile_phone': '13585511956'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:58,617 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:26:58,791 qianchengdai INFO test_register.py-45 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:26:58,791 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:58,792 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:58,792 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:58,792 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:58,792 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:26:58,901 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:58,901 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:58,901 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:26:59,069 qianchengdai ERROR test_register.py-71 line：断言失败！
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\qianchengdai\TestCases\test_register.py", line 69, in test_register_ok
+    self.assertIsNotNone(result)
+  File "G:\Python38\lib\unittest\case.py", line 1328, in assertIsNotNone
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "G:\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: unexpectedly None
+2020-09-24 10:26:59,071 qianchengdai INFO test_register.py-45 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:26:59,071 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:59,071 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:59,071 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:59,071 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:59,071 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:26:59,170 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:59,170 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:59,171 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:26:59,172 qianchengdai INFO test_register.py-45 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:26:59,172 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:59,172 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:59,173 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:59,173 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:59,173 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:26:59,272 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:59,273 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:59,273 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:26:59,274 qianchengdai INFO test_register.py-45 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:26:59,274 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:59,275 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:59,275 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:59,275 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:59,275 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:26:59,382 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:59,382 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:59,383 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:26:59,384 qianchengdai INFO test_register.py-45 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:26:59,384 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:59,384 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:59,385 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:59,385 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:59,385 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:26:59,484 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:59,484 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:59,485 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:26:59,485 qianchengdai INFO test_register.py-45 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:26:59,485 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:59,486 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:59,486 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:59,486 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:59,486 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:26:59,769 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:59,769 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:59,769 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:26:59,770 qianchengdai INFO test_register.py-45 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:26:59,770 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:59,770 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:59,770 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:59,770 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:59,770 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:26:59,922 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:26:59,922 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:26:59,922 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:26:59,923 qianchengdai INFO test_register.py-45 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:26:59,924 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:26:59,924 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:26:59,924 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:26:59,924 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:26:59,924 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:27:00,024 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:27:00,025 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:27:00,025 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:27:00,025 qianchengdai INFO test_register.py-45 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:27:00,026 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:27:00,026 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:27:00,026 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:27:00,026 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:27:00,026 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:27:00,128 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:27:00,128 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:27:00,128 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:27:00,129 qianchengdai INFO test_register.py-45 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:27:00,129 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:27:00,129 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:27:00,129 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:27:00,129 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:27:00,129 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:27:00,229 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:27:00,229 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:27:00,229 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:27:00,230 qianchengdai INFO test_register.py-45 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:27:00,230 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:27:00,230 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:27:00,230 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:27:00,230 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:27:00,230 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:27:00,322 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:27:00,323 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:27:00,323 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:27:00,323 qianchengdai INFO test_register.py-45 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:27:00,716 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:27:00,717 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:27:00,717 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:27:00,717 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:27:00,717 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15148367888', 'pwd': '12345678'}
+2020-09-24 10:27:00,915 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:27:00,916 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135914, 'reg_name': '小柠檬', 'mobile_phone': '15148367888'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:27:00,916 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:27:01,090 qianchengdai INFO test_register.py-39 line：======  注册模块用例 执行结束  ========
+2020-09-24 10:36:06,199 qianchengdai INFO test_register.py-34 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:36:06,204 qianchengdai INFO test_register.py-44 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:36:06,610 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:06,610 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:06,611 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:06,611 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:06,611 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '17703185373', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:36:06,814 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:06,815 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135919, 'reg_name': '美丽可爱的小简', 'mobile_phone': '17703185373'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:06,815 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:36:07,082 qianchengdai INFO test_register.py-44 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:36:07,082 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:07,082 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:07,083 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:07,083 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:07,083 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:36:07,198 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:07,198 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:07,199 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:36:07,200 qianchengdai INFO test_register.py-44 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:36:07,200 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:07,200 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:07,201 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:07,201 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:07,201 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:07,306 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:07,306 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:07,306 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:36:07,307 qianchengdai INFO test_register.py-44 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:36:07,307 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:07,308 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:07,308 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:07,308 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:07,308 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:07,446 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:07,447 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:07,447 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:36:07,448 qianchengdai INFO test_register.py-44 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:36:07,448 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:07,449 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:07,449 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:07,450 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:07,450 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:07,567 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:07,567 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:07,568 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:36:07,569 qianchengdai INFO test_register.py-44 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:36:07,570 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:07,570 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:07,570 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:07,570 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:07,571 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:07,694 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:07,695 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:07,695 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:36:07,697 qianchengdai INFO test_register.py-44 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:36:07,697 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:07,697 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:07,697 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:07,698 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:07,698 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:07,889 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:07,889 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:07,889 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:36:07,890 qianchengdai INFO test_register.py-44 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:36:07,890 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:07,890 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:07,890 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:07,890 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:07,890 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:36:07,999 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:07,999 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:08,000 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:36:08,000 qianchengdai INFO test_register.py-44 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:36:08,001 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:08,001 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:08,001 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:08,001 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:08,001 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:36:08,127 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:08,127 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:08,128 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:36:08,128 qianchengdai INFO test_register.py-44 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:36:08,128 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:08,128 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:08,129 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:08,129 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:08,129 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:36:08,242 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:08,242 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:08,243 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:36:08,243 qianchengdai INFO test_register.py-44 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:36:08,243 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:08,244 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:08,244 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:08,244 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:08,244 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:36:08,356 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:08,357 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:08,357 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:36:08,359 qianchengdai INFO test_register.py-44 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:36:08,360 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:08,360 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:08,360 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:08,361 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:08,361 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:36:08,474 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:08,474 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:08,474 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:36:08,475 qianchengdai INFO test_register.py-44 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:36:08,876 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:08,876 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:08,876 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:08,877 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:08,877 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13598228187', 'pwd': '12345678'}
+2020-09-24 10:36:09,073 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:09,073 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135920, 'reg_name': '小柠檬', 'mobile_phone': '13598228187'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:09,074 qianchengdai INFO test_register.py-60 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:36:09,249 qianchengdai INFO test_register.py-38 line：======  注册模块用例 执行结束  ========
+2020-09-24 10:36:25,858 qianchengdai INFO test_register.py-35 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:36:25,861 qianchengdai INFO test_register.py-45 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:36:26,263 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:26,264 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:26,264 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:26,264 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:26,264 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '19831531211', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:36:26,391 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:26,391 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:26,391 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:36:26,392 qianchengdai ERROR test_register.py-71 line：断言失败！
+Traceback (most recent call last):
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "G:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "G:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\qianchengdai\TestCases\test_register.py", line 63, in test_register_ok
+    self.assertEqual(response.json()["code"],expected["code"])
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-09-24 10:36:26,394 qianchengdai INFO test_register.py-45 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:36:26,394 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:26,395 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:26,395 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:26,395 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:26,395 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:36:26,516 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:26,516 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:26,516 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:36:26,517 qianchengdai INFO test_register.py-45 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:36:26,518 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:26,518 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:26,518 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:26,518 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:26,519 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:26,634 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:26,635 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:26,635 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:36:26,636 qianchengdai INFO test_register.py-45 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:36:26,636 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:26,636 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:26,636 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:26,636 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:26,636 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:26,738 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:26,739 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:26,739 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:36:26,740 qianchengdai INFO test_register.py-45 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:36:26,740 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:26,740 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:26,740 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:26,740 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:26,741 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:26,858 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:26,859 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:26,859 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:36:26,860 qianchengdai INFO test_register.py-45 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:36:26,860 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:26,860 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:26,860 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:26,860 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:26,861 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:26,988 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:26,989 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:26,989 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:36:26,991 qianchengdai INFO test_register.py-45 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:36:26,991 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:26,991 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:26,992 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:26,992 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:26,993 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:36:27,267 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:27,268 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:27,268 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:36:27,269 qianchengdai INFO test_register.py-45 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:36:27,270 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:27,270 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:27,270 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:27,271 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:27,271 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:36:27,382 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:27,382 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:27,382 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:36:27,383 qianchengdai INFO test_register.py-45 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:36:27,383 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:27,383 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:27,383 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:27,383 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:27,383 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:36:27,515 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:27,516 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:27,516 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:36:27,517 qianchengdai INFO test_register.py-45 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:36:27,517 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:27,517 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:27,517 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:27,517 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:27,517 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:36:27,621 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:27,621 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:27,621 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:36:27,622 qianchengdai INFO test_register.py-45 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:36:27,622 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:27,622 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:27,622 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:27,622 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:27,622 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:36:27,721 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:27,721 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:27,722 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:36:27,722 qianchengdai INFO test_register.py-45 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:36:27,722 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:27,722 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:27,722 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:27,722 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:27,723 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:36:27,867 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:27,868 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:27,868 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:36:27,869 qianchengdai INFO test_register.py-45 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:36:28,282 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:36:28,283 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:36:28,283 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:36:28,283 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:36:28,283 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '19965113642', 'pwd': '12345678'}
+2020-09-24 10:36:28,396 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:36:28,396 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:36:28,396 qianchengdai INFO test_register.py-61 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:36:28,397 qianchengdai ERROR test_register.py-71 line：断言失败！
+Traceback (most recent call last):
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "G:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "G:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\qianchengdai\TestCases\test_register.py", line 63, in test_register_ok
+    self.assertEqual(response.json()["code"],expected["code"])
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-09-24 10:36:28,400 qianchengdai INFO test_register.py-39 line：======  注册模块用例 执行结束  ========
+2020-09-24 10:37:55,979 qianchengdai INFO test_register.py-35 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:37:55,980 qianchengdai INFO test_register.py-36 line：待执行用例cases:[{'id': 1, 'title': '注册成功-带注册名', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"#phone#","pwd":"123456789","type":1,"reg_name":"美丽可爱的小简"}', 'expected': '{"code":0,"msg":"OK"}', 'check_sql': 'select * from member where mobile_phone="#phone#"'}, {'id': 2, 'title': '成功-不带用户名', 'method': 'post', 'url': 'member/register', 'request_data': '{"mobile_phone":"","pwd":"123456789","type":1}', 'expected': '{"code":1,"msg":"手机号为空"}', 'check_sql': None}, {'id': 3, 'title': '不输入手机号', 'method': 'post', 'url': 'member/register', 'request_data': '{"pwd":"12345678","type":1}', 'expected': '{"code":1,"msg":"手机号为空"}', 'check_sql': None}, {'id': 4, 'title': '手机号长度10位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"1550000000","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 5, 'title': '手机号长度12位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"155000000001","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 6, 'title': '手机号含有非法字符', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"1550000000q","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 7, 'title': '已注册过的手机号', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500000000","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"账号已存在"}', 'check_sql': None}, {'id': 8, 'title': '密码7位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500056781","pwd":"1234567","type":1}', 'expected': '{"code":2,"msg":"密码格式为8到16位"}', 'check_sql': None}, {'id': 9, 'title': '密码17位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500000001","pwd":"12345678901234567","type":1}', 'expected': '{"code":2,"msg":"密码格式为8到16位"}', 'check_sql': None}, {'id': 10, 'title': '不输入密码', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13300000001","type":1}', 'expected': '{"code":1,"msg":"密码为空"}', 'check_sql': None}, {'id': 11, 'title': '注册名11位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13303007856","pwd":"12345678","type":1,"reg_name":"12345678909991"}', 'expected': '{"code":2,"msg":"用户昵称长度超过10位"}', 'check_sql': None}, {'id': 12, 'title': '类型输入非0，1内容', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13300003456","pwd":"12345678","type":2}', 'expected': '{"code":2,"msg":"不支持的用户类型"}', 'check_sql': None}, {'id': 13, 'title': '不输入类型', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"#phone#","pwd":"12345678"}', 'expected': '{"code":0,"msg":"OK"}', 'check_sql': 'select * from member where mobile_phone="#phone#"'}]
+2020-09-24 10:37:55,982 qianchengdai INFO test_register.py-46 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:37:56,367 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:56,368 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:56,368 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:56,368 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:56,368 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '17387900870', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:37:56,469 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:56,469 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:56,469 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:37:56,469 qianchengdai ERROR test_register.py-72 line：断言失败！
+Traceback (most recent call last):
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "G:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "G:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\qianchengdai\TestCases\test_register.py", line 64, in test_register_ok
+    self.assertEqual(response.json()["code"],expected["code"])
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-09-24 10:37:56,472 qianchengdai INFO test_register.py-46 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:37:56,472 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:56,472 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:56,472 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:56,472 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:56,472 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:37:56,577 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:56,577 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:56,577 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:37:56,578 qianchengdai INFO test_register.py-46 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:37:56,578 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:56,578 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:56,578 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:56,578 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:56,578 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:37:56,688 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:56,689 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:56,689 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:37:56,689 qianchengdai INFO test_register.py-46 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:37:56,689 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:56,690 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:56,690 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:56,690 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:56,690 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:37:56,797 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:56,798 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:56,798 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:37:56,798 qianchengdai INFO test_register.py-46 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:37:56,798 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:56,798 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:56,798 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:56,798 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:56,799 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:37:56,890 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:56,890 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:56,891 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:37:56,891 qianchengdai INFO test_register.py-46 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:37:56,891 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:56,891 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:56,891 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:56,892 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:56,892 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:37:56,992 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:56,993 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:56,993 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:37:56,993 qianchengdai INFO test_register.py-46 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:37:56,993 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:56,993 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:56,993 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:56,993 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:56,994 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:37:57,106 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:57,106 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:57,107 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:37:57,107 qianchengdai INFO test_register.py-46 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:37:57,107 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:57,107 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:57,107 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:57,107 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:57,108 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:37:57,235 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:57,235 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:57,236 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:37:57,236 qianchengdai INFO test_register.py-46 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:37:57,236 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:57,236 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:57,236 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:57,237 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:57,237 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:37:57,341 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:57,341 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:57,341 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:37:57,341 qianchengdai INFO test_register.py-46 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:37:57,341 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:57,341 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:57,342 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:57,342 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:57,342 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:37:57,444 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:57,444 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:57,444 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:37:57,445 qianchengdai INFO test_register.py-46 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:37:57,445 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:57,445 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:57,445 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:57,445 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:57,445 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:37:57,545 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:57,546 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:57,546 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:37:57,546 qianchengdai INFO test_register.py-46 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:37:57,546 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:57,546 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:57,546 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:57,546 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:57,547 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:37:57,641 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:57,641 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:57,641 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:37:57,641 qianchengdai INFO test_register.py-46 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:37:58,045 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:37:58,045 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:37:58,045 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:37:58,045 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:37:58,046 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15951386228', 'pwd': '12345678'}
+2020-09-24 10:37:58,247 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:37:58,247 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135921, 'reg_name': '小柠檬', 'mobile_phone': '15951386228'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:37:58,247 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:37:58,464 qianchengdai INFO test_register.py-40 line：======  注册模块用例 执行结束  ========
+2020-09-24 10:40:02,102 qianchengdai INFO test_register.py-35 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:40:02,102 qianchengdai INFO test_register.py-36 line：待执行用例cases:[{'id': 1, 'title': '注册成功-带注册名', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"#phone#","pwd":"123456789","type":1,"reg_name":"美丽可爱的小简"}', 'expected': '{"code":0,"msg":"OK"}', 'check_sql': 'select * from member where mobile_phone="#phone#"'}, {'id': 2, 'title': '成功-不带用户名', 'method': 'post', 'url': 'member/register', 'request_data': '{"mobile_phone":"","pwd":"123456789","type":1}', 'expected': '{"code":1,"msg":"手机号为空"}', 'check_sql': None}, {'id': 3, 'title': '不输入手机号', 'method': 'post', 'url': 'member/register', 'request_data': '{"pwd":"12345678","type":1}', 'expected': '{"code":1,"msg":"手机号为空"}', 'check_sql': None}, {'id': 4, 'title': '手机号长度10位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"1550000000","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 5, 'title': '手机号长度12位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"155000000001","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 6, 'title': '手机号含有非法字符', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"1550000000q","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 7, 'title': '已注册过的手机号', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500000000","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"账号已存在"}', 'check_sql': None}, {'id': 8, 'title': '密码7位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500056781","pwd":"1234567","type":1}', 'expected': '{"code":2,"msg":"密码格式为8到16位"}', 'check_sql': None}, {'id': 9, 'title': '密码17位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500000001","pwd":"12345678901234567","type":1}', 'expected': '{"code":2,"msg":"密码格式为8到16位"}', 'check_sql': None}, {'id': 10, 'title': '不输入密码', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13300000001","type":1}', 'expected': '{"code":1,"msg":"密码为空"}', 'check_sql': None}, {'id': 11, 'title': '注册名11位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13303007856","pwd":"12345678","type":1,"reg_name":"12345678909991"}', 'expected': '{"code":2,"msg":"用户昵称长度超过10位"}', 'check_sql': None}, {'id': 12, 'title': '类型输入非0，1内容', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13300003456","pwd":"12345678","type":2}', 'expected': '{"code":2,"msg":"不支持的用户类型"}', 'check_sql': None}, {'id': 13, 'title': '不输入类型', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"#phone#","pwd":"12345678"}', 'expected': '{"code":0,"msg":"OK"}', 'check_sql': 'select * from member where mobile_phone="#phone#"'}]
+2020-09-24 10:40:02,105 qianchengdai INFO test_register.py-46 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:40:02,515 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:02,516 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:02,516 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:02,516 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:02,516 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15001587170', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:40:02,725 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:02,726 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135922, 'reg_name': '美丽可爱的小简', 'mobile_phone': '15001587170'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:02,726 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:40:02,924 qianchengdai INFO test_register.py-46 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:40:02,925 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:02,925 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:02,925 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:02,926 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:02,926 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:40:03,040 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,040 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,040 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:40:03,041 qianchengdai INFO test_register.py-46 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:40:03,042 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,042 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,042 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,042 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,042 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:40:03,145 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,146 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,146 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:40:03,146 qianchengdai INFO test_register.py-46 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:40:03,147 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,147 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,147 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,147 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,147 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:40:03,246 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,246 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,246 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:40:03,247 qianchengdai INFO test_register.py-46 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:40:03,247 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,248 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,248 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,248 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,248 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:40:03,347 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,348 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,348 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:40:03,349 qianchengdai INFO test_register.py-46 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:40:03,349 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,349 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,349 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,349 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,349 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:40:03,443 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,443 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,444 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:40:03,445 qianchengdai INFO test_register.py-46 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:40:03,445 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,446 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,446 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,446 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,446 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:40:03,637 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,638 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,638 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:40:03,639 qianchengdai INFO test_register.py-46 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:40:03,639 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,639 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,639 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,639 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,640 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:40:03,751 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,751 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,751 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:40:03,752 qianchengdai INFO test_register.py-46 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:40:03,752 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,752 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,752 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,753 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,753 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:40:03,853 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:03,853 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:03,853 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:40:03,854 qianchengdai INFO test_register.py-46 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:40:03,854 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:03,854 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:03,854 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:03,854 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:03,854 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:40:04,007 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:04,007 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:04,007 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:40:04,008 qianchengdai INFO test_register.py-46 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:40:04,008 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:04,008 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:04,008 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:04,008 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:04,009 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:40:04,116 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:04,117 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:04,117 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:40:04,118 qianchengdai INFO test_register.py-46 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:40:04,118 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:04,118 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:04,118 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:04,118 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:04,118 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:40:04,225 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:04,226 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:04,226 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:40:04,227 qianchengdai INFO test_register.py-46 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:40:04,584 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:40:04,585 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:40:04,585 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:40:04,586 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:40:04,586 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '14919111107', 'pwd': '12345678'}
+2020-09-24 10:40:04,697 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:40:04,697 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:40:04,697 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:40:04,698 qianchengdai ERROR test_register.py-72 line：断言失败！
+Traceback (most recent call last):
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "G:\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "G:\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\PycharmWorkspace\firstpy\qianchengdai\TestCases\test_register.py", line 64, in test_register_ok
+    self.assertEqual(response.json()["code"],expected["code"])
+  File "D:\Program Files\PyCharm Community Edition 2020.1.1\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-09-24 10:40:04,703 qianchengdai INFO test_register.py-40 line：======  注册模块用例 执行结束  ========
+2020-09-24 10:44:55,661 qianchengdai INFO test_register.py-35 line：======  注册模块用例 开始执行  ========
+2020-09-24 10:44:55,661 qianchengdai INFO test_register.py-36 line：待执行用例cases:[{'id': 1, 'title': '注册成功-带注册名', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"#phone#","pwd":"123456789","type":1,"reg_name":"美丽可爱的小简"}', 'expected': '{"code":0,"msg":"OK"}', 'check_sql': 'select * from member where mobile_phone="#phone#"'}, {'id': 2, 'title': '成功-不带用户名', 'method': 'post', 'url': 'member/register', 'request_data': '{"mobile_phone":"","pwd":"123456789","type":1}', 'expected': '{"code":1,"msg":"手机号为空"}', 'check_sql': None}, {'id': 3, 'title': '不输入手机号', 'method': 'post', 'url': 'member/register', 'request_data': '{"pwd":"12345678","type":1}', 'expected': '{"code":1,"msg":"手机号为空"}', 'check_sql': None}, {'id': 4, 'title': '手机号长度10位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"1550000000","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 5, 'title': '手机号长度12位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"155000000001","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 6, 'title': '手机号含有非法字符', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"1550000000q","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"无效的手机格式"}', 'check_sql': None}, {'id': 7, 'title': '已注册过的手机号', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500000000","pwd":"12345678","type":1}', 'expected': '{"code":2,"msg":"账号已存在"}', 'check_sql': None}, {'id': 8, 'title': '密码7位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500056781","pwd":"1234567","type":1}', 'expected': '{"code":2,"msg":"密码格式为8到16位"}', 'check_sql': None}, {'id': 9, 'title': '密码17位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"15500000001","pwd":"12345678901234567","type":1}', 'expected': '{"code":2,"msg":"密码格式为8到16位"}', 'check_sql': None}, {'id': 10, 'title': '不输入密码', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13300000001","type":1}', 'expected': '{"code":1,"msg":"密码为空"}', 'check_sql': None}, {'id': 11, 'title': '注册名11位', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13303007856","pwd":"12345678","type":1,"reg_name":"12345678909991"}', 'expected': '{"code":2,"msg":"用户昵称长度超过10位"}', 'check_sql': None}, {'id': 12, 'title': '类型输入非0，1内容', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"13300003456","pwd":"12345678","type":2}', 'expected': '{"code":2,"msg":"不支持的用户类型"}', 'check_sql': None}, {'id': 13, 'title': '不输入类型', 'method': 'post', 'url': '/member/register', 'request_data': '{"mobile_phone":"#phone#","pwd":"12345678"}', 'expected': '{"code":0,"msg":"OK"}', 'check_sql': 'select * from member where mobile_phone="#phone#"'}]
+2020-09-24 10:44:55,662 qianchengdai INFO test_register.py-46 line：*********   执行用例1：注册成功-带注册名   *********
+2020-09-24 10:44:56,110 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:56,110 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:56,110 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:56,110 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:56,110 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '17631982809', 'pwd': '123456789', 'type': 1, 'reg_name': '美丽可爱的小简'}
+2020-09-24 10:44:56,368 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:56,369 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135923, 'reg_name': '美丽可爱的小简', 'mobile_phone': '17631982809'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:56,369 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:44:56,635 qianchengdai INFO test_register.py-46 line：*********   执行用例2：成功-不带用户名   *********
+2020-09-24 10:44:56,635 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:56,635 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:56,636 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:56,636 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:56,636 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '', 'pwd': '123456789', 'type': 1}
+2020-09-24 10:44:56,748 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:56,748 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:56,749 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:44:56,749 qianchengdai INFO test_register.py-46 line：*********   执行用例3：不输入手机号   *********
+2020-09-24 10:44:56,749 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:56,749 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:56,750 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:56,750 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:56,750 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'pwd': '12345678', 'type': 1}
+2020-09-24 10:44:56,854 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:56,855 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '手机号为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:56,855 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"手机号为空"}
+2020-09-24 10:44:56,855 qianchengdai INFO test_register.py-46 line：*********   执行用例4：手机号长度10位   *********
+2020-09-24 10:44:56,855 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:56,855 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:56,856 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:56,856 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:56,856 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:44:56,966 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:56,967 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:56,967 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:44:56,967 qianchengdai INFO test_register.py-46 line：*********   执行用例5：手机号长度12位   *********
+2020-09-24 10:44:56,967 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:56,967 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:56,967 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:56,967 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:56,967 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '155000000001', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:44:57,070 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:57,070 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:57,071 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:44:57,071 qianchengdai INFO test_register.py-46 line：*********   执行用例6：手机号含有非法字符   *********
+2020-09-24 10:44:57,072 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:57,072 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:57,072 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:57,072 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:57,072 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '1550000000q', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:44:57,177 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:57,177 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '无效的手机格式', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:57,177 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"无效的手机格式"}
+2020-09-24 10:44:57,178 qianchengdai INFO test_register.py-46 line：*********   执行用例7：已注册过的手机号   *********
+2020-09-24 10:44:57,178 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:57,178 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:57,178 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:57,178 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:57,179 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000000', 'pwd': '12345678', 'type': 1}
+2020-09-24 10:44:57,379 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:57,379 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:57,379 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"账号已存在"}
+2020-09-24 10:44:57,380 qianchengdai INFO test_register.py-46 line：*********   执行用例8：密码7位   *********
+2020-09-24 10:44:57,380 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:57,380 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:57,380 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:57,380 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:57,381 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500056781', 'pwd': '1234567', 'type': 1}
+2020-09-24 10:44:57,483 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:57,483 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:57,483 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:44:57,484 qianchengdai INFO test_register.py-46 line：*********   执行用例9：密码17位   *********
+2020-09-24 10:44:57,484 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:57,484 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:57,484 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:57,484 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:57,484 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '15500000001', 'pwd': '12345678901234567', 'type': 1}
+2020-09-24 10:44:57,595 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:57,595 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '密码格式为8到16位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:57,595 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"密码格式为8到16位"}
+2020-09-24 10:44:57,596 qianchengdai INFO test_register.py-46 line：*********   执行用例10：不输入密码   *********
+2020-09-24 10:44:57,596 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:57,596 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:57,596 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:57,596 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:57,596 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300000001', 'type': 1}
+2020-09-24 10:44:57,708 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:57,709 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 1, 'msg': '密码为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:57,709 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":1,"msg":"密码为空"}
+2020-09-24 10:44:57,709 qianchengdai INFO test_register.py-46 line：*********   执行用例11：注册名11位   *********
+2020-09-24 10:44:57,709 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:57,710 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:57,710 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:57,710 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:57,710 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13303007856', 'pwd': '12345678', 'type': 1, 'reg_name': '12345678909991'}
+2020-09-24 10:44:57,833 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:57,834 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:57,834 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"用户昵称长度超过10位"}
+2020-09-24 10:44:57,834 qianchengdai INFO test_register.py-46 line：*********   执行用例12：类型输入非0，1内容   *********
+2020-09-24 10:44:57,834 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:57,834 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:57,834 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:57,834 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:57,834 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13300003456', 'pwd': '12345678', 'type': 2}
+2020-09-24 10:44:58,046 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:58,046 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 2, 'msg': '不支持的用户类型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:58,046 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":2,"msg":"不支持的用户类型"}
+2020-09-24 10:44:58,047 qianchengdai INFO test_register.py-46 line：*********   执行用例13：不输入类型   *********
+2020-09-24 10:44:58,431 qianchengdai INFO handle_requests.py-32 line：发起一次HTTP请求
+2020-09-24 10:44:58,431 qianchengdai INFO handle_requests.py-40 line：请求头为：{'X-Lemonban-Media-Type': 'lemonban.v2', 'Content-Type': 'application/json'}
+2020-09-24 10:44:58,431 qianchengdai INFO handle_requests.py-41 line：请求方法为：post
+2020-09-24 10:44:58,431 qianchengdai INFO handle_requests.py-42 line：请求url为：http://api.lemonban.com/futureloan/member/register
+2020-09-24 10:44:58,431 qianchengdai INFO handle_requests.py-43 line：请求数据为：{'mobile_phone': '13837568861', 'pwd': '12345678'}
+2020-09-24 10:44:58,636 qianchengdai INFO handle_requests.py-50 line：响应状态码为：200
+2020-09-24 10:44:58,636 qianchengdai INFO handle_requests.py-51 line：响应数据为：{'code': 0, 'msg': 'OK', 'data': {'id': 135924, 'reg_name': '小柠檬', 'mobile_phone': '13837568861'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-09-24 10:44:58,636 qianchengdai INFO test_register.py-62 line：用例的期望结果为：{"code":0,"msg":"OK"}
+2020-09-24 10:44:58,857 qianchengdai INFO test_register.py-40 line：======  注册模块用例 执行结束  ========

@@ -1,0 +1,111 @@
+2020-08-28 20:34:51,587 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 20:49:47,564 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 20:50:22,691 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:18:21,553 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:18:30,925 py30 INFO basepage.py-42 line：在 百度首页_等待搜索输入框可见 行为，等待元素：('id', 'kw') 可见。
+2020-08-28 21:19:06,118 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:19:15,426 py30 INFO basepage.py-42 line：在 百度首页_等待搜索输入框可见 行为，等待元素：('id', 'kw') 可见。
+2020-08-28 21:19:15,592 py30 INFO basepage.py-53 line：等待耗时为：0.16579341888427734
+2020-08-28 21:20:36,744 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:20:46,597 py30 INFO basepage.py-42 line：在 百度首页_等待搜索输入框可见 行为，等待元素：('id', 'kw111') 可见。
+2020-08-28 21:21:06,634 py30 ERROR basepage.py-48 line：等待元素可见失败！
+Traceback (most recent call last):
+  File "D:/Pychram-Workspace/py30-web-framework/day3/Common/basepage.py", line 45, in wait_ele_visible
+    WebDriverWait(self.driver, timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "D:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-08-28 21:21:07,101 py30 INFO basepage.py-75 line：截图保存在：D:\Pychram-Workspace\py30-web-framework\day3\Outputs\screenshots\百度首页_等待搜索输入框可见_2020-08-28-21-21-06.png
+2020-08-28 21:46:41,669 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-28 21:46:52,422 py30 INFO basepage.py-42 line：在 百度首页_输入搜索内容 行为，等待元素：('id', 'kw') 可见。
+2020-08-28 21:46:52,612 py30 INFO basepage.py-54 line：等待耗时为：0.18857383728027344
+2020-08-28 21:46:52,613 py30 INFO basepage.py-87 line：在 百度首页_输入搜索内容 行为，查找元素：('id', 'kw')
+2020-08-28 21:46:52,714 py30 INFO basepage.py-114 line：在 百度首页_输入搜索内容 行为，给元素：('id', 'kw') 输入文本值：selenium webdriver
+2020-08-28 21:46:53,832 py30 INFO basepage.py-42 line：在 百度首页_点击搜索按钮 行为，等待元素：('id', 'su') 可见。
+2020-08-28 21:46:53,913 py30 INFO basepage.py-54 line：等待耗时为：0.07995247840881348
+2020-08-28 21:46:53,913 py30 INFO basepage.py-87 line：在 百度首页_点击搜索按钮 行为，查找元素：('id', 'su')
+2020-08-28 21:46:53,967 py30 INFO basepage.py-103 line：在 百度首页_点击搜索按钮 行为，点击元素：('id', 'su')
+2020-08-31 20:43:50,681 py30 INFO my_logger.py-48 line：1111111111111111
+2020-08-31 20:44:01,584 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-08-31 20:44:01,626 py30 INFO basepage.py-78 line：等待耗时为：0.039972543716430664
+2020-08-31 20:44:01,626 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-08-31 20:44:01,663 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：
+2020-08-31 20:44:02,100 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-08-31 20:44:02,157 py30 INFO basepage.py-78 line：等待耗时为：0.055969953536987305
+2020-08-31 20:44:02,158 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-08-31 20:44:02,203 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-08-31 20:44:02,573 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-08-31 20:44:02,631 py30 INFO basepage.py-78 line：等待耗时为：0.056972503662109375
+2020-08-31 20:44:02,632 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-08-31 20:44:02,674 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-08-31 20:44:02,956 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-08-31 20:44:03,022 py30 INFO basepage.py-78 line：等待耗时为：0.06603574752807617
+2020-08-31 20:44:03,023 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-08-31 20:44:03,117 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-08-31 20:44:03,264 py30 INFO basepage.py-151 line：文本值为：请输入手机号
+2020-08-31 20:44:04,260 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-08-31 20:44:04,312 py30 INFO basepage.py-78 line：等待耗时为：0.052831411361694336
+2020-08-31 20:44:04,312 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-08-31 20:44:04,346 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-08-31 20:44:04,931 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-08-31 20:44:04,968 py30 INFO basepage.py-78 line：等待耗时为：0.0364382266998291
+2020-08-31 20:44:04,968 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-08-31 20:44:05,001 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：
+2020-08-31 20:44:05,162 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-08-31 20:44:05,209 py30 INFO basepage.py-78 line：等待耗时为：0.046971797943115234
+2020-08-31 20:44:05,211 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-08-31 20:44:05,276 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-08-31 20:44:05,421 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-08-31 20:44:05,475 py30 INFO basepage.py-78 line：等待耗时为：0.052968740463256836
+2020-08-31 20:44:05,475 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-08-31 20:44:05,509 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-08-31 20:44:05,570 py30 INFO basepage.py-151 line：文本值为：请输入密码
+2020-08-31 20:44:06,367 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-08-31 20:44:06,400 py30 INFO basepage.py-78 line：等待耗时为：0.03198552131652832
+2020-08-31 20:44:06,401 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-08-31 20:44:06,445 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：1868472055
+2020-08-31 20:44:06,920 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-08-31 20:44:06,956 py30 INFO basepage.py-78 line：等待耗时为：0.034978628158569336
+2020-08-31 20:44:06,957 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-08-31 20:44:06,986 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-08-31 20:44:07,309 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-08-31 20:44:07,352 py30 INFO basepage.py-78 line：等待耗时为：0.04207873344421387
+2020-08-31 20:44:07,353 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-08-31 20:44:07,384 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-08-31 20:44:07,537 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-08-31 20:44:07,592 py30 INFO basepage.py-78 line：等待耗时为：0.05396914482116699
+2020-08-31 20:44:07,592 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-08-31 20:44:07,624 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-08-31 20:44:07,669 py30 INFO basepage.py-151 line：文本值为：请输入正确的手机号
+2020-08-31 20:44:08,739 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-08-31 20:44:08,780 py30 INFO basepage.py-78 line：等待耗时为：0.03997516632080078
+2020-08-31 20:44:08,780 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-08-31 20:44:08,812 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：186847205531
+2020-08-31 20:44:09,399 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-08-31 20:44:09,438 py30 INFO basepage.py-78 line：等待耗时为：0.03814101219177246
+2020-08-31 20:44:09,439 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-08-31 20:44:09,467 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-08-31 20:44:09,776 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-08-31 20:44:09,810 py30 INFO basepage.py-78 line：等待耗时为：0.031987905502319336
+2020-08-31 20:44:09,810 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-08-31 20:44:09,836 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-08-31 20:44:09,968 py30 INFO basepage.py-66 line：在 登陆页面_获取登陆区错误提示信息 行为，等待元素：('xpath', '//div[@class="form-error-info"]') 存在。
+2020-08-31 20:44:10,012 py30 INFO basepage.py-78 line：等待耗时为：0.042977094650268555
+2020-08-31 20:44:10,012 py30 INFO basepage.py-97 line：在 登陆页面_获取登陆区错误提示信息 行为，查找元素：('xpath', '//div[@class="form-error-info"]')
+2020-08-31 20:44:10,027 py30 INFO basepage.py-143 line：在 登陆页面_获取登陆区错误提示信息 行为，获取元素 ('xpath', '//div[@class="form-error-info"]') 的文本值。
+2020-08-31 20:44:10,072 py30 INFO basepage.py-151 line：文本值为：请输入正确的手机号
+2020-08-31 20:44:10,752 py30 INFO basepage.py-66 line：在 登陆页面_输入用户名 行为，等待元素：('xpath', '//input[@name="phone"]') 存在。
+2020-08-31 20:44:10,791 py30 INFO basepage.py-78 line：等待耗时为：0.038977622985839844
+2020-08-31 20:44:10,791 py30 INFO basepage.py-97 line：在 登陆页面_输入用户名 行为，查找元素：('xpath', '//input[@name="phone"]')
+2020-08-31 20:44:10,824 py30 INFO basepage.py-124 line：在 登陆页面_输入用户名 行为，给元素：('xpath', '//input[@name="phone"]') 输入文本值：18684720553
+2020-08-31 20:44:11,221 py30 INFO basepage.py-66 line：在 登陆页面_输入密码 行为，等待元素：('xpath', '//input[@name="password"]') 存在。
+2020-08-31 20:44:11,254 py30 INFO basepage.py-78 line：等待耗时为：0.03197884559631348
+2020-08-31 20:44:11,254 py30 INFO basepage.py-97 line：在 登陆页面_输入密码 行为，查找元素：('xpath', '//input[@name="password"]')
+2020-08-31 20:44:11,276 py30 INFO basepage.py-124 line：在 登陆页面_输入密码 行为，给元素：('xpath', '//input[@name="password"]') 输入文本值：python
+2020-08-31 20:44:11,492 py30 INFO basepage.py-66 line：在 登陆页面_点击登陆按钮 行为，等待元素：('tag name', 'button') 存在。
+2020-08-31 20:44:11,524 py30 INFO basepage.py-78 line：等待耗时为：0.030624866485595703
+2020-08-31 20:44:11,524 py30 INFO basepage.py-97 line：在 登陆页面_点击登陆按钮 行为，查找元素：('tag name', 'button')
+2020-08-31 20:44:11,548 py30 INFO basepage.py-113 line：在 登陆页面_点击登陆按钮 行为，点击元素：('tag name', 'button')
+2020-08-31 20:44:11,692 py30 INFO basepage.py-44 line：在 首页_等待退出元素可见 行为，等待元素：('xpath', '//a[text()="退出"]') 可见。
+2020-08-31 20:44:14,051 py30 INFO basepage.py-56 line：等待耗时为：2.358684539794922

@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Sep 02 22:04:33 CST 2020","Wed Sep 02 22:05:07 CST 2020","33600","TestCases","test_invest","TestInvest","","","test_invest_success",""
+"failed","Wed Sep 02 22:05:41 CST 2020","Wed Sep 02 22:05:44 CST 2020","2290","TestCases","test_login","TestLogin","","","test_login_failed_invalid_data[case3]",""
+"failed","Wed Sep 02 22:05:38 CST 2020","Wed Sep 02 22:05:40 CST 2020","2573","TestCases","test_login","TestLogin","","","test_login_failed_invalid_data[case2]",""
+"passed","Wed Sep 02 22:05:33 CST 2020","Wed Sep 02 22:05:34 CST 2020","1612","TestCases","test_login","TestLogin","","","test_login_failed_invalid_data[case0]",""
+"passed","Wed Sep 02 22:05:45 CST 2020","Wed Sep 02 22:05:51 CST 2020","6082","TestCases","test_login","TestLogin","","","test_login_success",""
+"passed","Wed Sep 02 22:05:35 CST 2020","Wed Sep 02 22:05:37 CST 2020","1569","TestCases","test_login","TestLogin","","","test_login_failed_invalid_data[case1]",""
+"passed","Wed Sep 02 22:05:08 CST 2020","Wed Sep 02 22:05:15 CST 2020","6189","TestCases","test_invest","TestInvest","","","test_invest_failed_no100",""

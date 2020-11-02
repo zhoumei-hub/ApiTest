@@ -1,0 +1,14 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "http://127.0.0.1:8090/job/py30-web%E8%87%AA%E5%8A%A8%E5%8C%96/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 7,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+} ]

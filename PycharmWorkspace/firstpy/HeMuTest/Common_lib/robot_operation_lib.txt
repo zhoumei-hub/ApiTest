@@ -1,0 +1,31 @@
+*** Settings ***
+Library           python_lib/python_operation_lib.py
+
+*** Keywords ***
+hemu_send_to_module
+    [Arguments]    ${ip}    ${port}    @{request}    # use python fuction send to dubbo server
+    @{send_data}    create list    ${ip}    ${port}    @{request}
+    log    ok
+    ${rev_data}    python_send_data_func    @{send_data}
+    [Return]    ${rev_data}    # dubbo_return
+
+hemu_result_check
+    [Arguments]    ${actual_res}    ${expected_res}
+    ${test_res_flag}    python_check_test_result    ${actual_res}    ${expected_res}
+    Should Be Equal    int(${test_res_flag})    int(0)
+    [Return]    ${test_res_flag}
+
+hemu_generate_request
+    [Arguments]    ${id}    ${dubbo_request}    @{mock_data}    # return a list,then use python to analysis the dubbo request
+    @{request_list}    create list    ${id}    ${dubbo_request}    @{mock_data}
+    [Return]    @{request_list}    # the original request
+
+hemu_dubbo_request
+    [Arguments]    ${method}    ${interface_url}    ${enter_flag}    ${payload}
+    ${payload_res}    python_dubbo_request_generate    ${method}    ${interface_url}    ${enter_flag}    ${payload}
+    [Return]    ${payload_res}    # the dubbo actual request
+
+hemu_case_id_generate
+    [Arguments]    ${module_name}    ${interface_id}    ${case_in_id}
+    ${case_unique_id}    python_genterate_caseid_func    ${module_name}    ${interface_id}    ${case_in_id}
+    [Return]    ${case_unique_id}
